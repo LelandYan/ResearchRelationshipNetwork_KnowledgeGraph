@@ -46,13 +46,13 @@ TF-IDF是一种统计量度，用于评估单词与文档集合中的文档的�
 
 用更正式的数学术语来说，来自文档集D的文档d中单词t的TF-IDF得分计算如下：
 
-![img](https://monkeylearn.com/static/23b5e36265d19e9b42a9ae42220d257b/df264/1.png)
+![img](imgs/29.png)
 
 Where:
 
-![img](https://monkeylearn.com/static/d96cda57105351e7b75b844910ab3f73/df264/2.png)
+![img](imgs/30.png)
 
-![img](https://monkeylearn.com/static/aaa7bf8149587b9b828f99e1db9f7e46/df264/3.png)
+![img](imgs/31.png)
 
 
 
@@ -60,11 +60,11 @@ Where:
 
 然后在对数据进行文本的预处理：
 
-![image-20200829133652989](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDgvMjkvUklFVTk1aXBiWlNlNEJZLnBuZw?x-oss-process=image/format,png)
+![image](imgs/32.png)
 
 在文本处理过程中，由于基于词频建立的巨大的矩阵会存在很多为0值的地方，所以数据形成的矩阵是存在高度的稀疏性的，我们可以通过噪声处理和标准化的方法减少这种数据结果的高度稀疏性。
 
-![image-20200829133948411](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDgvMjkvWTY5VU1vMkJucWNUa2I3LnBuZw?x-oss-process=image/format,png)
+![image-20200829133948411](imgs/33.png)
 
 我们可以将除了核心文本分析其他多余数据当作噪声处理删除。这样我们可以完成文本预处理过程中的噪音处理，而对于标准化处理，通常在文本中表示的是处理同一个单词的不同的表现形式。主要是两种形式，一种是词干streaming，另一种是词性还原Lemmatisation。词干删除后缀来标准化文本单词，而词性还原是一种更高级的技术，它基于单词的词根进行工作。
 
@@ -72,7 +72,7 @@ Where:
 
 然后我们可以使用词云进行展示我们处理后得到词频统计后的结果。
 
-![Figure_1](C:\Users\27215\Desktop\关键词聚类\Figure_1.png)
+![Figure_1](imgs/35.png)
 
 下面是将我们上次得到的已经经过文本数据预处理后的一些词频表对应的单词进行向量化或者是数字化的处理，因为计算机是无法对文本进行模型的运算和计算的，所以我们需要单词也就是字符串进行向量化的处理，语料中的文本转化为机器学习可以输入运行的数据格式，可以分为两个部分，第一个部分是Tokenisation 将文本中转化为单词列表的过程，我们需要通过矢量化来将单词转化为我们需要的数字化的矩阵，第二个部分是Vertorisation，也可以称为文本特征的提取，我们这里选择的模型是简单有效的词袋模型，该模型会忽略文本中的语句的顺序。
 
@@ -88,11 +88,11 @@ unigram 一元分词，把句子分成一个一个的字
 bigram 二元分词，把句子从头到尾每两个字组成一个词语
 trigram 三元分词，把句子从头到尾每三个字组成一个词语.
 
-![Figure_3](C:\Users\27215\Desktop\关键词聚类\Figure_3.png)![Figure_4](C:\Users\27215\Desktop\关键词聚类\Figure_4.png)![Figure_2](C:\Users\27215\Desktop\关键词聚类\Figure_2.png)
+![Figure_3](imgs/36.png)![Figure_4](imgs/37.png)![Figure_2](imgs/38.png)
 
 ## 使用TF-IDF提取关键字
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200829144149432.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMyMzAxODk=,size_16,color_FFFFFF,t_70#pic_center)
+![](imgs/34.png)
 
 然后我们针对每个摘要选取最高得分的前五关键词。例如：
 

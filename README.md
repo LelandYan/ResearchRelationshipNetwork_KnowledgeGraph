@@ -70,29 +70,38 @@
 
 本项目希望提出一种分析科研关系网络的新方法，能够充分利用现在的 数据挖掘、文本主题提取 、文本聚类分析等计算机技术 。这种方法应该 建立 起“领域 —专家 ”模型 ，通过技术关键词能够直接找到擅长该项技术的 专家 ，并能够完整地了解每个 专家 的擅长技术、工作单位、国籍等详细信息 。并采用系统分析方法 可以建立起不同专家之间的合作网络， 尤其是一些跨学科，跨领域的合作关系，从而更好地了解目前的交叉学科现状 。最后能够 建立一个具有检索和数据分析功能的 科研关系网站，实现相关的数据展示 。
 
-| 课题要求                                                     | 是否完成 |
-| ------------------------------------------------------------ | -------- |
-| 确定所分析的具体学科---计算机                                | 是       |
-| 在文献数据库中通过网络爬虫获得数据                           | 是       |
-| 通过文本主题提取、文本聚类分析挖掘关键技术                   | 是       |
-| 通过技术作者等关键词查找擅长该技术的专家                     | 是       |
-| 对搜索的专家进行挖掘，给出专家技术画像                       | 是       |
-| 构建知识图谱，将领域-专家模型可视化，并提供可视化图表        | 是       |
-| 建立不同专家的合作网络，可以推荐合作专家，更好了解交叉学科现状 | 是       |
-| 建立一个具有检索和数据分析的科研关系网站                     | 是       |
-| 实现相关数据的处理和数据展示                                 | 是       |
+| 课题要求                                                     | 是否完成  |
+| ------------------------------------------------------------ | --------- |
+| 确定所分析的具体学科---计算机                                | :ok_hand: |
+| 在文献数据库中通过网络爬虫获得数据                           | :ok_hand: |
+| 通过文本主题提取、文本聚类分析挖掘关键技术                   | :ok_hand: |
+| 通过技术作者等关键词查找擅长该技术的专家                     | :ok_hand: |
+| 对搜索的专家进行挖掘，给出专家技术画像                       | :ok_hand: |
+| 构建知识图谱，将领域-专家模型可视化，并提供可视化图表        | :ok_hand: |
+| 建立不同专家的合作网络，可以推荐合作专家，更好了解交叉学科现状 | :ok_hand: |
+| 建立一个具有检索和数据分析的科研关系网站                     | :ok_hand: |
+| 实现相关数据的处理和数据展示                                 | :ok_hand: |
 
-| 实现功能模块                                                 | 详细解释跳转链接 |
-| ------------------------------------------------------------ | ---------------- |
-| 确定所分析的具体学科---计算机                                |                  |
-| 在文献数据库中通过网络爬虫获得数据                           | 是               |
-| 通过文本主题提取、文本聚类分析挖掘关键技术                   | 是               |
-| 通过技术作者等关键词查找擅长该技术的专家                     | 是               |
-| 对搜索的专家进行挖掘，给出专家技术画像                       | 是               |
-| 构建知识图谱，将领域-专家模型可视化，并提供可视化图表        | 是               |
-| 建立不同专家的合作网络，可以推荐合作专家，更好了解交叉学科现状 | 是               |
-| 建立一个具有检索和数据分析的科研关系网站                     | 是               |
-| 实现相关数据的处理和数据展示                                 | 是               |
+
+
+| 实现功能模块以及相关解释文档                                 | 详细解释跳转链接                                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 网络爬虫技术分析介绍                                         | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| BigGraph实体嵌入向量表示模型以及计算实体、实体关系相似度进行推荐功能 | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| Fasttext文本分类模型以及动态爬取专家文本信息分类功能         | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 实体关系抽取模型以及针对结构化、半结构化和非结构化数据实体关系抽取功能 | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 搜索框容错性和分词以及关键词搜索原理                         | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 不同类型关键词搜索原理                                       | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 搜索框检索关键词功能                                         | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 图数据库介绍（Neo4j）                                        | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 文献数据库爬虫以及在线作者个人信息爬虫数据获取功能           | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 在线爬取专家个人信息文本数据分类功能                         | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 知识获取和实体关系抽取详细介绍                               | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 知识入库详细介绍                                             | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 学科领域本体关系数据与可视化功能                             | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| TD-IDF模型分析关键词介绍                                     | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 技术关键词提取以及可视化功能                                 | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
+| 专家技术画像以及专家模型可视化合作专家推荐功能               | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
 
 ## 目录结构
 
