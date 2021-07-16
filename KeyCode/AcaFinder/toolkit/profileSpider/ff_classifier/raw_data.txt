@@ -1,0 +1,360 @@
+__label__edu 教育 学士 博士 硕士 博士后
+__label__publication 出版物 发表文章 基金项目 自然 基金 项目
+__label__honor 获得 荣誉 奖
+__label__edu 2001年于大连理工大学获计算机科学学士；
+__label__edu 2004年于大连理工大学获计算机软件理论与应用硕士；
+__label__edu 2009年于中国科学院自动化研究所，获模式识别与智能系统工学博士。
+__label__edu 2010年至今，在模式识别国家重点实验室任助理研究员、副研究员、项目研究员、研究员；
+__label__edu 2015年入选中国科学院脑科学与智能技术卓越创新中心年轻骨干。
+__label__publication 申请人长期从事图像模式识别基础理论研究。围绕一簇共轭函数及其衍生形式，发展了一系列基于信息理论和稀疏学习的特征表达和分类方法，并应用到生物特征识别和深度伪造/鉴伪，相关成果在部队、公安、火车站等应用。
+__label__publication 在IEEE TPAMI、TIP、TIFS、TNNLS、TKDE等权威国际期刊以及ICCV、CVPR、NIPS、IJCAI、AAAI等权威国际会议发表论文150篇
+__label__publication 第一作者在IEEE TPAMI发表论文5篇。
+__label__publication 研究工作获得北京自然科学基金委杰出青年科学基金和国家自然科学基金委优秀青年科学基金资助。
+__label__publication 国家自然科学基金委优秀青年科学基金项目, 图像分析与模式识别, 
+__label__publication 国家自然科学基金委面上项目, 基于结构约束的多模态学习理论和方法, 
+__label__publication 国家重点研发计划, 大范围复杂场景视觉大数据的透彻感知理论子课题, 
+__label__publication 北京市科协重大重点调研课题, 网络科学流言的传播机制与对策研究, 
+__label__publication 北京高等学校高水平人才交叉培养项目,对抗生成网络及在视觉中的应用
+__label__honor CCTV-10科教频道科普节目嘉宾,
+__label__honor 2020中华人民共和国成立70周年阅兵观礼嘉宾,
+__label__honor 2019中科院青年创新促进会优秀会员, 
+__label__honor 2019Wider Challenge人脸检测冠军,
+__label__honor 2019IAPR/IEEE ICB Honorable   Mention Paper Award, 
+__label__honor 2019北京青年优秀科技论文一等奖, 
+__label__honor 2016吴文俊人工智能科学技术创新二等奖, 
+__label__honor 2015微软青年学者铸星计划, 
+__label__honor 2015ACM北京分会新星奖,   
+__label__honor 2015中国科学院卢嘉锡青年人才奖, 
+__label__edu 2008年6月于中国科学技术大学获博士学位；
+__label__edu 2017年12月至今安徽大学计算机科学与技术学院教授； 
+__label__edu 2012年9月~2013年9月在美国新泽西理工学院进行访学；
+__label__publication 在国内外重要学术期刊和国际学术会议上发表学术论文30余篇
+__label__publication 其中SCI收录30篇左右、EI收录30余篇，TOP期刊4篇；
+__label__publication 申请多项国家发明专利，其中已授权1项；
+__label__publication 参编专著《机器学习与智能决策系统》（科学出版社）、《半导体生产中的排序理论与算法》（清华大学出版社/待出版）；
+__label__publication 先后主持两项国家自然科学基金及教育部青年基金、省自然科学基金、教育厅自然科学重点项目，及企业委托横向项目等。
+__label__publication 担任国际期刊Applied Soft Computing编委；
+__label__publication 担任IEEE Automation Science and Engineering,自动化学报等国内外重要期刊的审稿人。
+__label__publication 国家自然科学基金面上基金(项目编号：71971002)，
+__label__publication 2020.1-2023.12；国家自然科学基金青年基金(项目编号：71601001)，
+__label__publication 2017.1-2019.12；教育部青年基金项目（项目编号：15YJC630041）；
+__label__publication 安徽省自然科学基金面上项目（项目编号：1608085MG154）
+__label__publication 安徽省教育厅自然科学重点项目（项目编号：KJ2015A062）
+__label__honor 2015年获省级教学成果二等奖
+__label__edu 安徽大学计算机科学与技术学院教授、副院长。
+__label__edu 1976年9月出生于安徽金寨，中共党员。
+__label__edu 2016年12月晋升教授，
+__label__edu 2008年7月毕业于安徽大学计算机应用技术专业，获工学博士学位。
+__label__edu 2011年被评为安徽大学青年骨干教师培养对象。
+__label__publication 国家重点级及国家级学术论文近50篇。
+__label__publication 目前主持国家基金面上项目1项、教育部人文社科青年基金1项、安徽省自然基金面上项目1项、安徽省教育厅自然科学研究项目1项。
+__label__publication 已经主持安徽省教育厅自然科学研究项目2项，
+__label__publication 参与国家级重大横向科技开发项目“国家清史”计划2项，
+__label__publication 参与编写学术著作和教材2部，
+__label__publication 并参与多项国家级或厅级科研项目和教研项目。
+__label__publication 专利申请实审3项，软件著作权4项。
+__label__publication （1）Xuejun Li, Lei Zhang, Yang Wu, Xiao Liu, Erzhou Zhu, Huikang Yi, Futian Wang, Cheng Zhang, Yun Yang, A Novel Workflow-Level Data Placement Strategy for Data-Sharing Scientific Cloud Workflows, IEEE Transactions on Services Computing, vol. , no. , pp. 1, 5555, doi:10.1109/TSC.2016.2625247（JCR Q1, IF：2.365）
+__label__publication （2）Xuejun Li, Ruimiao Ding, Xiao Liu, Xiangjun Liu, Erzhou Zhu, and Yunxiang Zhong, “A Dynamic Pricing Reverse Auction-Based Resource Allocation Mechanism in Cloud Workflow Systems,” Scientific Programming, vol. 2016, Article ID 7609460, 13 pages, 2016. doi:10.1155/2016/7609460  
+__label__publication （3）李学俊，吴洋，刘晓，程慧敏，朱二周. 混合云中面向数据中心的科学工作流数据布局方法. 软件学报. 2016,27(7):1861-1875  
+__label__honor 1）2016年全国大学生计算机博弈大赛，荣获点格棋亚军1项、爱因斯坦棋亚军1项和六子棋、亚马逊棋一等奖2项；
+__label__honor （2）2015年全国大学生计算机博弈大赛获点格棋季军1项、六子棋一等奖1项、爱因斯坦棋和六子棋二等奖2项；
+__label__honor （3）2014年全国大学生计算机博弈大赛指导“点点派”在点格棋项目中荣获亚军、行云流水”在爱恩斯坦棋项目中荣获季军、“棋开得胜”在六子棋项目中荣获季军、“格子杀手”队在点格棋项目中荣获一等奖；
+__label__honor 4）2013年全国大学生计算机博弈大赛指导“龙行天下”和“步步精心”队均取得了二等奖。
+__label__edu 2005年本科毕业于安徽大学，
+__label__edu 2010年博士毕业于中国科学技术大学和中国科学院合肥智能机械研究所，
+__label__edu 2010年-2013年在美国范德堡大学生物医学信息系从事博士后研究工作。
+__label__edu 2013年至今任教于安徽大学。
+__label__publication 1.Zhenyu Yue, Le Zhao, Na Cheng, and Junfeng Xia*, dbCID: a manually curated resource for exploring the driver indels in human cancer, Briefings in Bioinformatics, 2018, doi:10.1093/bib/bby059 2.Zhenyu Yue
+__label__publication 1、国家自然科学基金重点项目：载能粒子对关键生物靶的分子调控机制与应用基础研究，项目批准号：11835014，2019/01- 2023/12，132万元（总经费330万元）
+__label__publication 2、国家自然科学基金面上项目：癌症驱动突变的生物信息学分析和实验验证，项目批准号：61672037，2017/01 – 2020/12，65万元，主持
+__label__honor 2015年获“安徽省特聘专家”称号；
+__label__honor 2017年入选安徽省学术和技术带头人后备人选。
+__label__edu 2012年获中国科学技术大学计算机科学与技术专业博士学位。
+__label__publication Jie Cui, Jing Zhang, et al. SPACF: A Secure Privacy-Preserving Authentication Scheme for VANET With Cuckoo Filter [J]. IEEE Transactions on Vehicular Technology, 2017, 66(11): 10283-10295.【IF: 4.432】【车载电子领域顶级期刊】
+__label__publication 崔杰,左海风, 等. 对轻量级分组密码 MIBS 和 I-PRESENT 的非对称 Biclique 攻击[J]. 中国科学: 信息科学, 2017, 10: 009. 
+__label__publication 发明专利：一种SDN网络中支持隐私保护的多域QoS路径计算方法（201710474335.0）
+__label__publication 1. 国家自然科学基金面上项目：5G车载网环境下基于边缘计算的高效隐私保护机制研究（No. 61872001，2019.1-2022.12）
+__label__publication 2. 国家自然科学基金青年项目： SPN型分组密码的新型代数分析方法研究（No. 61502008，2016.1-2018.12）
+__label__honor 1. 获得安徽省教学成果一等奖（2015年）
+__label__honor 2. 荣获安徽大学2012-2013年度“ 教书育人先进工作者”荣誉称号
+__label__honor 3. 荣获安徽大学2017-2018学年度本科课堂教学优秀奖 
+__label__honor 4. 指导学生在全国大学生信息安全竞赛、全国SDN大赛等比赛中获得国家级奖励19项
+__label__edu 1995年7月本科毕业于安徽大学电子系获工学学士学位;
+__label__edu 1998年7月保送研究生毕业于安徽大学电路与系统专业获工学硕士学位;
+__label__edu 2003年9月－2006年7月于安徽大学计算机科学与技术学院计算机应用技术专业攻读博士，获得工学博士学位;
+__label__edu 2010年9月-2011年9月在美国得州大学做访问学者
+__label__publication 在国内外学术刊物和国际会议上发表论文60余篇，
+__label__publication 主持的科研项目经费超过300万,获得国家发明专利4项。
+__label__publication 近期发表的论文：1）A New Formulation of Linear Discriminant Analysis for Robust Dimensionality Reduction, IEEE Transactions on Knowledge and Data Engineering（TKDE, CCF A, SCI 二区）,2018 
+__label__publication 1)基于稀疏表示的颅脑创伤影像分析与辅助诊断研究，国家自然科学基金面上项目（在研）
+__label__publication 2)电缆接头的图像识别与分析研究, 企业委托项目（国网安徽省电力科学研究院）（在研）
+__label__publication 3)自然语言处理与文本数据挖掘研发, 北京大学深圳研究院（在研）
+__label__publication 4)基于大数据智能预测电量模型, 国网安徽省电力公司芜湖县供电公司（在研）
+__label__publication 5)基于稀疏表示的颅脑损伤图像分析研究（KJ2016A040）,安徽省教育厅重点项目（结题）
+__label__publication 6)48批留学回国人员科研启动基金，教育部留学基金批文：教外司留【2014】1685号7)颅脑损伤的计算机辅助诊断研究，留学人员科技活动择优资助
+__label__publication 8)输电线路灾害监测预警模型及应用研究, 安徽继远电网技术有限责任公司（结题）
+__label__publication 9)变电站消防、安防自动报警系统远程控制平台研究，安徽继远电网技术有限责任公司（结题）
+__label__honor 2015年获安徽省教学成果一等奖(第1)；
+__label__honor 2014年指导学生获得大学生全国创新创业大赛移动互联网专项赛金奖；
+__label__honor 2007年获安徽省科学技术奖三等奖(第3)
+__label__edu 仲红，女，博士，教授，博士生导师，
+__label__edu 安徽大学计算机科学与技术学院院长，
+__label__edu 安徽省物联网安全技术工程实验室主任，
+__label__edu ACM合肥分会常务理事，
+__label__edu 安徽省计算机学会副理事长，
+__label__edu 教育部互联网应用创新开放平台联盟理事，
+__label__edu 安徽省高等学校计算机教育研究会理事，
+__label__edu 2005年获中国科学技术大学计算机科学与技术专业博士学位。
+__label__publication 先后主持国家自然科学基金面上项目3项、省部级科研项目7项，
+__label__publication 已发表论文120余篇，SCI/EI 检索90余篇次，
+__label__publication 包括IEEE Transactions on Dependable and Secure Computing、IEEE Transactions on Information Forensics and Security、IEEE Transactions on Parallel and Distributed Systems、IEEE Transactions on Vehicular Technology、IEEE Transactions on Intelligent Transportation Systems、IEEE Transactions on Big Data、IEEE Internet of Things Journal、Journal of Parallel and Distributed Computing、Information Sciences、Science China Information Sciences、中国科学、电子学报等核心期刊和重要的国际学术会议，
+__label__publication 出版英文专著1部，
+__label__publication 申请发明专利30项（已授权10项），
+__label__publication 授权实用新型专利5项，
+__label__publication 取得软件著作权7项。
+__label__honor 1. 教育部自然科学二等奖（2014年）
+__label__honor 2. 安徽省教学成果一等奖2项（2015年，2017年）
+__label__honor 3. 连续荣获“2006-2007年度”和“2008-2009年度”安徽大学“教书育人先进工作者”荣誉称号
+__label__edu 2004年7月获得中国科学技术大学软件工程专业学士学位，
+__label__edu 2009年7月获得中国科学技术大学计算机软件与理论专业博士学位。
+__label__edu 2014年受聘为中国科学技术大学副教授，2015年受聘为安徽大学教授。
+__label__publication 已主持完成国家自然科学基金青年项目1项，
+__label__publication 江苏省自然科学基金面上项目1项、中国博士后科学基金2项、中国科学院院长奖获得者科研启动专项资金项目1项、苏州市科技计划项目1项。
+__label__publication 目前正在主持国家自然科学基金面上项目1项。
+__label__publication Zhili Chen, Liusheng Huang, Zhenshan Yu, Wei Yang, Lingjun Li, Xueling Zheng, Xinxin Zhao. Linguistic Steganography Detection Using Statistical Characteristics of Correlations between Words [C]. Proceedings of Information Hiding 2008, LNCS 5284: 224-235. (IH2008, USA. 信息隐藏权威会议，每年仅录用论文25篇左右，2010 CCF B类会议，后来与ACM MMSEC合并) 
+__label__publication 1. 国家自然科学基金面上项目：密码学安全且实际有效的动态频谱拍卖机制研究（No. 61572031, 2016.1-2019.12），76.8万。
+__label__honor 1. 中国科学院院长奖，2009年。
+__label__edu 1987/7～今：安徽大学计算机科学与技术系从事教学、科研工作。
+__label__edu 2000/9～2003/6：攻读博士学位，获安徽大学计算机应用专业工学博士
+__label__publication 获发明专利2项，
+__label__publication 发表论文80多篇，其中SCI、EI、ISTP收录30多篇；
+__label__publication 编著《商空间与粒计算》、《机器学习理论与方法》（科学出版社）等4部；
+__label__publication 主持完成国家自然科学基金项目2项，主持完成省基金项目、省产学研项目4项，参加了5项国家973及国家重点基金项目。
+__label__publication 国家自然科学基金面上项目(61673020):基于商逼近的粒计算优化问题研究，2017/01-2020/12，63万元
+__label__honor 2015安徽省教学成果奖一等奖 
+__label__honor 安徽省2004年科学技术二等奖一项
+__label__edu 1999.9-2003.7：阜阳师范学院数学与计算科学学院   本科
+__label__edu 2004.9-2006.7：华中科技大学数学与统计学院       硕士
+__label__edu 2006.9-2009.6：华中科技大学自动化学院     博士
+__label__edu 2009.7- 2011.10： 安徽大学计算机科学与技术学院   讲师
+__label__edu 2011.11-2015.12：  安徽大学计算机科学与技术学院 副教授
+__label__edu 2013.08-2014.08:英国萨里大学计算机系          访问学者
+__label__edu 2016.1-现在：     安徽大学计算机科学与技术学院   教授
+__label__honor “国家优青”和“安徽省杰青”获得者，
+__label__publication 已主持完成国家自然科学基金项目2项，
+__label__publication 现主持国家自然科学基金项目2项，
+__label__publication 作为安徽大学项目负责人主持国家自然科学联合基金重点项目1项，及其它省部级项目多项。
+__label__publication 在国内外重要刊物上发表论文60多篇，
+__label__publication 以第一或通讯作者发表学术论文50余篇，
+__label__publication 其中SCI收录40多篇，包括IEEE TEVC、IEEE TNNLS、IEEE TCYB、IEEE CIM等计算智能领域顶级或权威期刊论文20余篇，
+__label__publication 4篇论文入选ESI前1%高被引论文。担任国际期刊Complex & Intelligent Systems及International Journal of Bio-Inspired编委，
+__label__publication 为IEEE TEVC、IEEE TCYB、IEEE TKDE、IEEE TKDD、Information Sciences、计算机学报、电子学报等国内外权威期刊审稿人。
+__label__publication 国际会议ACMC 2015会议主席及程序委员会共同主席，
+__label__publication 首届数据驱动复杂系统优化与应用会议主席、国际会议BICTA 2018程序委员会共同主席。
+__label__publication 国家自然科学优秀青年基金：仿生智能系统的理论、算法及应用，项目编号： 61822301，经费额度：130万，执行年限2019.01-2021.12，项目主持人。
+__label__publication 安徽省杰出青年基金：随机膜计算模型研究，经费额度：40万，执行年限：2018.06-2021.05，项目主持人。
+__label__publication 国家自然科学基金面上项目：基于脉冲神经膜系统的故障诊断模型研究，项目编号：61602033，经费额度：64万，执行年限2017.01-2020.12，项目主持人。
+__label__honor 计算智能领域顶级期刊IEEE TEVC的2018年唯一最佳论文奖。
+__label__edu 安徽大学计算机科学与技术学院教授、博士生导师，
+__label__edu 安徽大学科学技术处副处长，
+__label__edu 中国生物信息学会（筹）生物医学数据挖掘与计算专业组秘书长。
+__label__publication 在Neural Computation、Bioinformatics、Pattern Recognition、IEEE/ACM Transactions 系列会刊等国内外重要学术刊物与国际会议上发表论文100余篇。
+__label__publication 作为项目负责人，主持完成国家自然科学基金2项、中国博士后科学基金项目（一等资助）1项，参与“973”课题1项；
+__label__publication 主编教材2部；目前主持国家自然科学基金面上项目1项；
+__label__honor  2007年获中国科学院王宽诚博士后工作奖 
+__label__honor  2010年获安徽省科学技术奖自然科学类一等奖（第二完成人） 
+__label__honor  2016年获教育部自然科学奖一等奖（第二完成人）
+__label__edu 2002年7月毕业于英国York大学计算机系获博士学位。
+__label__edu 1984至今任教于安徽大学，
+__label__edu 1998年晋升为教授, 
+__label__edu 2002年获得博士生导师资格。
+__label__edu 现为安徽大学二级教授。
+__label__edu 曾受聘英国电信公司（BT）短期研究员、美国弗罗里达技术学院客座教授、澳大利亚新南威尔士大学客座研究员、新加坡南洋理工大学客座教授、英国Stirling大学客座教授、英国York大学博士后研究员等。
+__label__publication [1] Bin Luo, Edwin R. Hancock, Structural graph matching using the EM algorithm and singular value decomposition. IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol.23, No.10, 2010, 1120-1136.
+__label__publication [2] Bin Luo, Richard C. Wilson and Edwin R. Hancock, A spectral approach to learning structural variations in graphs, Pattern Recognition, Vol. 39, No.6, 2006, 1188-1198
+__label__publication [3] Jiang B, Tang J, Ding C and Bin Luo. Binary Constraint Preserving Graph Matching[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017, 4402-4409
+__label__publication [4] Lixiang Xu, Xiaoyi Jiang, Lu Bai, Jin Xiao, Bin Luo, A hybrid reproducing graph kernel based on information entropy, Pattern Recognition, Volume 73, 2018, Pages 89-98[5] Bo Jiang, Jin Tang, Bin Luo, Liang Lin，Robust Feature Point Matching With Sparse Model，IEEE Transactions on Image Processing，23(12), 2014, 5175-5186 
+__label__publication 基于近邻随机图模型的图像结构化建模理论与应用研究，国家自然科学基金，61671018，2017年1 月至2020 年12 月, 63万元
+__label__honor 1、2007年，被评为安徽省模范教师 
+__label__honor 2、2011年，指导的硕士论文“吴友情，数字水印分存技术的研究”获安徽省优秀硕士论文奖 
+__label__honor 3、2012年，获安徽省科学技术三等奖（基于多模态图像分析的设备运行故障预警技术及应用 
+__label__honor 4、2015，指导的博士生江波论文“基于图理论与稀疏约束模型的图像表示、匹配与识别”获得ACM中国合肥分会优秀博士论文奖
+__label__edu 博士，
+__label__edu 安徽大学计算机科学与技术学院副教授，博导。
+__label__honor 入选徽省高校优秀拔尖人才、
+__label__honor 安徽大学“感谢恩师--我最喜爱的老师”候选人、
+__label__honor 安徽大学首批优秀人才支持计划、安徽大学“互联网+”大学生创新创业大赛“优秀指导教师”、
+__label__honor 2017国家留学基金委公派博士后资助计划（美国普渡大学）。
+__label__publication 担任IEEE Trans. on CSVT，SCN，Information Science，MTAP，IJPRAI等SCI期刊，软件学报等国内顶级期刊及IWDW等国际会议审稿人。
+__label__honor 担任国家科技专家库在库专家，
+__label__honor 国家自然科学基金函审专家，
+__label__honor 中国计算机学会(CCF)第十一次会员代表大会会员代表，
+__label__honor 中国计算机学会YOCSEF合肥学术委员会2016-2017副主席，
+__label__honor 中国图象图形学学会CSIG高级会员，
+__label__honor CSIG数字媒体取证与安全专业委员会委员、女工委委员，
+__label__honor 安徽省计算机学会ACF青年工作委员会委员。
+__label__publication 共发表/接受学术论文30余篇，
+__label__publication 其中第一作者/通讯作者SCI论文10余篇；
+__label__publication 申报发明专利10余项；主
+__label__publication 持完成了中国博士后基金、安徽省自然科学基金、安徽省高校振兴计划等项目。
+__label__publication 主持国家自然科学基金面上项目1项，青年项目1项，参与重点项目1项，面上项目1项。
+__label__publication 1. 国家自然科学基金面上项目，JPEG图像可逆信息隐藏，2019年1月-2022年12月，61872003，主持。
+__label__publication 2. 基于图像灰度熵分解的密文图像高载荷可逆信息隐藏，国家自然科学基金，2016年1月-2018年12月，61502009，主持。
+__label__publication 3. 国家自然科学基金面上项目，量子密码若干关键问题研究，2018年1月-2021年12月，61772001，参与。
+__label__publication 4.国家自然科学基金重点项目，新型信息隐藏的基础理论与关键技术研究，2017年1月-2020年12月，U1636206，参与。
+__label__honor 安徽大学第七届青年教师教学基本功竞赛二等奖。
+__label__edu 陶亮：博士、教授（二级）、博士生及硕士生导师，
+__label__edu 安徽省学术和技术带头人，
+__label__edu 安徽大学学位（评定）委员会委员、计算机科学与技术学院学位委员会主席、中国电子学会电路与系统分会委员会委员、安徽省人工智能学会理事。
+__label__edu 1988年6月研究生毕业后留在安徽大学电子工程与信息科学系工作。
+__label__edu 1997年曾考取国家留学基金委公派访问学者资格，
+__label__edu 次年被派往加拿大温莎大学访问研修一年。
+__label__edu 2001年入选国家教育部优秀青年教师资助计划并获项目资助，
+__label__edu 2003年于中国科技大学获得信息与通信工程专业博士学位
+__label__publication 主持过多项国家自然科学基金项目、安徽省自然科学基金项目及安徽省教育厅自然科学重点研究项目的研究。
+__label__publication 在《IEEE Transactions on Image Processing》、《IEEE Transactions on Signal Processing》、《Signal Processing》(Elsevier期刊)、《IEICE Transactions on Information and Systems》（日本电子情报通信学会核心国际期刊）、《Journal of Computer Science and Technology》、《Chinese Journal of Electronics》、《电子学报》、《Chinese Optics Letters》、《中国科学：信息科学》（中英文版）等中外核心学术期刊以及国际学术会议上发表论文100多篇，
+__label__publication 目前已有60多篇论文被SCI、EI、ISTP收录，
+__label__publication 研究成果被他人引用多次；
+__label__publication 出版专著1部；
+__label__publication 多窗实值离散Gabor展开与变换理论及快速算法（国家自然科学基金面上项目）;
+__label__publication 图像视觉比较、多模态生物特征融合（预研项目）。
+__label__publication 基于近红外成像的手部静脉和纹理特征识别算法及系统实现研究（用于身份识别与鉴别）（预研项目）；
+__label__honor  2006年获得安徽省科学技术三等奖一项（排名第一）；
+__label__honor  2007年获得安徽省科学技术三等奖一项（排名第四）；
+__label__honor  所指导的硕士生学位论文《实值离散Gabor变换窗函数的设计》2011年被安徽省人民政府学位委员会和教育厅评为安徽省第三届优秀硕士学位论文；
+__label__edu 安徽大学，计算机科学与技术学院教授博导/硕导  
+__label__edu 研究工作经历（按时间倒排序）2015/12-, 安徽大学，计算机科学与技术学院，教授2007/07-2015/11，
+__label__edu 安徽大学，计算机科学与技术学院，副教授 2010/8- 2011/8，
+__label__edu 美国加州大学伯克利分校（University of California， Berkeley），电子工程与计算机学院（EECS）,访问学者
+__label__publication 主持过多项不同类型项目，包括：国家自然科学基金、863项目子课题、重点研发计划子课题、教育部留学基金项目、安徽省自然科学基金项目和安徽省教育厅科学基金重点项目等；
+__label__publication 发表相关论文 60多篇，获得多项发明专利和软件著作权。
+__label__publication (2)国家重点研发计划“知识产权信息共享与运营服务应用示范”项目下设课题“知识产权大数据挖掘技术、智能推送技术及应用示范（2017YFB1401903）”子课题
+__label__honor 优秀论文奖
+__label__edu 2005年12月博士毕业于浙江大学CAD&CG国家重点实验室，
+__label__edu 2006年6月起在安徽大学计算机科学与技术学院工作，并于2011年11月获得教授职称，
+__label__edu 期间于2007年8月至2008年7月在法国LIMSI-CNRS从事博士后研究。
+__label__edu 曾任计算机科学与技术学院创新实验室主任，
+__label__edu 现任媒体计算研究所所长。
+__label__honor 无获奖
+__label__edu 1966年11月25日出生,
+__label__edu 安徽大学计算机科学与技术学院教授，博士/硕士生导师。
+__label__edu 分别于1985、1988和2002年在安徽大学、电子科技大学和中国科学技术大学获得学士、硕士和博士学位。
+__label__edu 2003－2006在中国科技大学信号与信息处理博士后流动站进行博士后研究，
+__label__edu 2004.4-2004.10美国加州大学圣地亚哥分校学习。
+__label__publication 安徽省科技攻关计划项目1项，企业委托项目2项。
+__label__publication [1] Single-Image Distance Measurement by a Smart Mobile Device.S Chen, X Fang, J Shen, L Wang, L Shao, IEEE Transactions on Cybernetics, 47 (12), 4451-4462, 2017.
+__label__publication [2] A Sparse Analysis Window for Discrete Gabor Transform. J Zhou, X Fang, L Tao, Circuits, Systems, and Signal Processing, 36 (10), 4161-4180, 2017.
+__label__publication [3] 基于快速卷积神经网络的图像去模糊. 任静静，方贤勇，陈尚文，汪粼波，周健, 计算机辅助设计与图形学学报, 29 (8), 1444-1456, 2017.
+__label__publication [4] Multi-view Metric Learning for Multi-view Video Summarization. L Wang, X Fang, Y Guo, Y Fu, International Conference on Cyberworlds (CW), 179-182, 2016.
+__label__publication [5] 基于辐照度的运动模糊图像去模糊. 方贤勇，阚未然，周健，李黎，郭延文. 中国图象图形学报 20 (3), 395-407, 2015.
+__label__publication [6] 基于 BP 神经网络的图像局部模糊测量. 黄善春，方贤勇，周健，沈峰. 中国图象图形学报, 20-28, 2015.
+__label__publication [7] 面向运动过程建模的运动模糊图像摄像机响应函数估计方法. 方贤勇，阚未然，陈尚文，郭延文，周健，王安，张兴义, 计算机辅助设计与图形学学报, 27 (7), 1238-1246, 2015.
+__label__publication [8] A Consistent Pixel-Wise Blur Measurement for Partially Blurred Images. X Fang, F Shen, Y Guo, C Jacquemin, J Zhou, S Huang, IEEE International Conference on Image Processing (ICIP), 496-500, 2014.
+__label__publication [9] Fast Window Fusion Using Fuzzy Equivalence Relation. X Fang, H Zhang, J Zhou. Pattern Recognition Letters, 34 (6), 670-677, 2013.[10] Image Mosaic with Relaxed Motion. X Fang, J Zhu, B Luo,Signal, Image and Video Processing, 6 (4), 647-667, 2012.
+__label__publication 先后主持国家和省部级科研项目8项，
+__label__publication 在国内外学术刊物和会议上发表一系列有理论意义和实际应用价值的研究论文，
+__label__publication 申请发明专利11项，授权6项。
+__label__publication IPPG无接触生命体征监测实验系统等，并建立了丰富的实验数据库。
+__label__publication 国家自然科学基金，安徽省教育厅重点项目，企业委托横向开发项目，
+__label__publication 安徽大学教育部重点实验室项目等。
+__label__honor 安徽省科技进步三等奖1次，其他奖励4次
+__label__edu  1999年安徽师范大学数学与计算机学院获得学士学位，
+__label__edu  2006年合肥工业大学计算机学院获得硕士学位，
+__label__edu  2013年合肥工业大学管理科学与工程获得博士学位。
+__label__publication 在IEEE TSC、TSMC、ASC、KBS、IJWGS、IJAIT、ICSOC、ICWS、计算机学报、软件学报、电子学报、计算机研究与发展、计算机集成制造系统等期刊和会议发表学术论文50余篇，
+__label__publication 主持国家自然科学基金面上项目、国家科技支撑计划子课题、教育人文社科青年基金和规划基金、安徽省自然科学基金、教育厅自然科学基金重点项目等10余项课题。
+__label__publication 担任TSC、TSMC、TNSM、TETC、IJWS、IJWSR、China Communications、计算机学报、通信学报等学术期刊审稿人，
+__label__publication 以及ICSOC、FiCloud、ICCC、NCSC、CBPM等国内外会议程序委员会宣传主席和委员等。
+__label__publication 申请国家发明专利10余项，软件著作权9项
+__label__honor NCSC 2017 最佳论文奖 
+__label__honor 安徽省电子信息科技奖技术发明奖二等奖（排名1）
+__label__honor 安徽省教学成果二等奖 （排名3）
+__label__honor 一次获安徽省高校科技进步三等奖(独得)，
+__label__honor 三次获教学优秀奖。
+__label__honor 2002年入选安徽省高等学校‘十五’优秀人才计划的中青年学科带头人
+__label__edu 1997年，毕业于合肥解放军电子工程学院工业电气自动化专业；
+__label__edu 2003年，毕业于昆明理工大学控制理论与控制工程专业，获工学硕士学位；
+__label__edu 2007年，毕业于中国科技大学模式识别与智能系统专业，获工学博士学位；
+__label__edu 2006年，赴香港城市大学计算机系从事进化计算的高级研究助理研究；
+__label__edu 2008-2009年，赴美国Howard University从事蛋白质结构预测的博士后研究；
+__label__edu 2009-2010年，赴新加坡Nanyang Technological University从事计算生物学的Research Fellow研究。
+__label__edu 2011年-2013年，在中国科学院合肥智能机械研究所任副研究员、中国科技大学硕士生导师、博士生副导师。
+__label__edu 2012年-2014年，应邀赴沙特阿卜杜拉国王科技大学从事计算生物学的研究。
+__label__edu 2016年8月~2016年9月，悉尼科技大学，访问教授
+__label__edu 2013年-迄今，安徽大学， 教授
+__label__honor 获取中科院奖
+__label__edu 2012/11至今，安徽大学计算机科学与技术学院，
+__label__edu 教授安徽大学计算机科学与技术学院，
+__label__edu 副院长安徽省计算机学会，
+__label__edu 副理事长安徽省计算机学会青年工作委员会，
+__label__edu 主任中国计算机学会(CCF)大数据专家委员会，
+__label__edu 委员CCF计算机视觉专委会，
+__label__edu 委员CCF合肥分部，
+__label__edu 副秘书长CCF   YOCCF合肥，
+__label__edu 2014-2015主席中国图像图形学会青年工作委员会，委员
+__label__edu 中国视觉与学习研讨会VALSE   2019，大会主席
+__label__publication 曾经在IEEE/ACM TCBB， Proteins，FEBS Letters，BMC Bioinfo， Amino Acids等刊物上发表了50多篇学术论文，
+__label__publication 其中30余篇被SCI/EI检索，
+__label__publication JCR二区期刊10多篇，
+__label__publication 单篇引用次数最高达到100多次(Google Scholar Citation)。
+__label__publication 1. 基于氨基酸序列协同进化编码的蛋白质热点残基预测，国家自然科学基金青年基金，2014年1月--2016年12月。
+__label__publication 2. 蛋白质-配体相互作用的深度学习自动编码和随机映射研究，国家自然科学基金面上基金，2017年1月--2020年12月。
+__label__publication 3. 多态集成器及其基于蛋白质结构的药物靶点设计方法研究，安徽大学高层次人才引进科研启动资金，2014年1月--2018年12月。
+__label__honor 安徽省科技进步三等奖两项 
+__label__honor 安徽省自然科学三等奖一项 
+__label__honor 安徽省电力公司科技进步一等奖一项
+__label__edu 博士，二级教授，
+__label__edu 安徽大学计算机科学与技术学科博士生导师，
+__label__edu 国务院政府特殊津贴获得者。
+__label__edu 1979年8月毕业于安徽大学计算技术专业，毕业后留校，
+__label__edu 1987年8月晋升讲师，
+__label__edu 1992年5月晋升副教授，
+__label__edu 1993年起享受国务院政府特殊津贴，
+__label__edu 1995年至1998年在北京理工大学计算机系计算机应用技术专业攻读博士学位，
+__label__edu 1998年10月聘为教授，
+__label__edu 2000年开始指导硕士研究生，
+__label__edu 2002年开始指导博士研究生，
+__label__edu 2002年起，曾担任安徽大学计算机系主任、计算机学院副院长、软件学院院长，现任安徽大学智能嵌入式技术研究中心主任、校学术委员会委员，国家科技支撑计划课题负责人。
+__label__publication 发表学术论文100余篇，
+__label__publication 包括国际权威期刊IEEE T-PAMI、IEEE T-IP、IEEE T-CSVT、IEEE T-Cybernetics、PR等和国际顶级会议CVPR、ECCV、NIPS、IJCAI、AAAI、ACM MM等。
+__label__publication CCF A类论文14篇。主持各级科研项目近15项。
+__label__publication [1] 国家自然科学基金面上项目：视频时空结构深度模型研究及应用，2019/01-2019/12 
+__label__publication [2] 国家自然科学基金面上项目：基于多模态视觉模型的行为事件分析研究与应用, 2015/01-2018/12
+__label__honor 作为第一完成人成果主要获奖：(1) 面向计算机超大屏的触控互动操作实现技术与应用，安徽省科技进步奖，二等奖
+__label__honor (2) 社区科普智能交互平台及系列产品，安徽省科技进步奖，三等奖
+__label__honor (3) 专用集成电路VHDL语言高级综合及混合级模拟系统，国家国防科学技术奖，一等奖
+__label__honor (4) 超高速条码激光扫描阅读预处理专用芯片，国家国防科学技术奖，三等奖
+__label__honor (5) 光笔式条码阅读器，安徽省科技进步奖，二等奖
+__label__honor (6) ADTLG多用户通用图书流通计算机管理系统，安徽省科技进步奖，三等奖
+__label__edu 安徽大学教授。
+__label__edu 多年从事智能软件的研究和开发工作，
+__label__edu 1994年破格晋升为副教授，
+__label__edu 1998年破格晋升为教授。
+__label__honor 获得国家“863”信息技术应用二等奖 
+__label__honor 获得安徽省科技进步二等奖
+__label__publication 作为负责人主持承担了国家科技支撑计划、国家“863”、科技部中小企业技术创新基金、安徽省科技攻关等国家、部委、省级等近20项科研项目
+__label__publication 曾研制了我国第一台条码阅读器，
+__label__publication 作为主持人研制的“掌上型自动扫描翻译电子词典”在深圳高交会上获得技术转让费3000万元，
+__label__publication 作为第一完成人成果获部级科技进步一等奖1项、省级科技进步二等奖2项、部级科技进步三等奖1项、省级科技进步三等奖2项。
+__label__publication 在计算机学报、计算机研究与发展等中、英文期刊上发表学术论文80余篇，
+__label__publication 论文在数字系统自动综合、图覆盖优化方法、海量字符串智能模式匹配等方面有若干创新，具有普适性，取得了较好的应用效果。
+__label__publication 申请12项国家发明专利，7项获得授权；
+__label__publication 申请10项国家实用新型专利，8项获得授权。
+__label__publication 1. 基于手势侧面图像的多点触摸识别方法研究，教育部博士点基金
+__label__publication 2. 徽文化传播智能交互技术集成与应用示范，国家科技支撑计划项目
+__label__publication 主持完成国家“863”项目；
+__label__publication 主持完成教育部骨干教师科研项目；
+__label__publication 主持完成国家自然科学基金项目；
+__label__publication 主持完成的安徽省科技攻关项目；
+__label__publication 发表有关研究论文80多篇；
+__label__publication 安徽省公益林管理信息系统省级软件平台 节能监管信息平台
+__label__edu 2001年7月博士毕业于中国科学技术大学数学系。
+__label__edu 2004年8月中国科技大学动力工程及工程热物理博士后流动站出站。
+__label__edu 1989年起到安徽大学计算机学院任教。
+__label__edu 2001年6月担任硕士生导师，
+__label__edu 2002年9月受聘为教授，
+__label__edu 2005年1月担任博士生导师。
+__label__publication 先后参加了5项国家自然科学基金项目的研究工作，
+__label__publication 已主持完成两项省自然科学基金项目、两项省教育厅项目。
+__label__publication 近年来，在国际期刊《Computers & Fluids 》、《Inter. J for Numer Methods in Fluids》、《Mathematics and Computers in Simulation 》和《Applied Mathematics and Mechanics 》以及国内一些重要学术期刊《应用数学学报》、《应用力学学报》等上面发表论文60多篇
+__label__publication 其中SCI收录5篇，EI收录5篇。主持一项省教育厅自然科学研究重点项目，一门安徽省精品课程建设。

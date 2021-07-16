@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="author" content="Reacubeth Tsui"/>
+    <meta name="description" content="AcaFinder for academia"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link href="../static/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
+    <link href="../static/css/screen.css" rel="stylesheet"/>
+</head>
+<body class="home" id="page">
+<!-- Header -->
+<header class="main-header">
+    <div class="container">
+        <div class="header-content">
+            {#            <a href="/">#}
+            {#                <div style="display: flex;">#}
+            {#                    <img src="../static/images/site-identity.png" alt="site identity" width="85" height="58"/>#}
+            {#                    <h2 style="padding-top: 20px"></h2>#}
+            {#                </div>#}
+            {#            </a>#}
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="content-box">
+    <!-- Hero Section -->
+    <section class="section section-hero">
+        <div class="hero-box">
+            <div class="container">
+                <div class="hero-text align-center">
+                    <h1>Visualize Your Research</h1>
+                    <p>and surf the academia</p>
+                </div>
+                <form action="searchList" method="get" class="destinations-form">
+                    <div class="input-line">
+                        <input type="text" id="search" value="" name="user_text" class="form-input check-value"
+                               required="required"
+                               placeholder="Enter your key words"/>
+                        {#                        <button type="submit" class="form-submit btn btn-special">Go</button>#}
+                        <select name="search_flag" class="form-submit btn btn-special">
+                            <option value="author"><small>author</small></option>
+                            <option value="studyfields"><small>study fields</small></option>
+                            <option value="keywords"><small>key words</small></option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Statistics Box -->
+        <div class="container">
+            <div class="statistics-box">
+                <div class="statistics-item">
+                    <span class="value">185,915,481</span>
+                    <p class="title">Papers</p>
+                </div>
+
+                <div class="statistics-item">
+                    <span class="value">89,421,970</span>
+                    <p class="title">Authors</p>
+                </div>
+
+                <div class="statistics-item">
+                    <span class="value">25,659</span>
+                    <p class="title">Affiliations</p>
+                </div>
+
+                <div class="statistics-item">
+                    <span class="value">720,335</span>
+                    <p class="title">Concepts</p>
+                </div>
+
+                <div class="statistics-item">
+                    <span class="value">765,217</span>
+                    <p class="title">Visitors</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="section section-destination">
+        <!-- Title -->
+        <div class="section-title">
+            <div class="container">
+                <h2 class="title">Data Visualization</h2>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="container">
+            <div class="row">
+                {#                   第一张图片#}
+                <div class="col-md-16 col-xs-24">
+                    <div class="destination-box">
+                        <div class="box-cover">
+                            <div id="first-picture" style="width: 700px;height:750px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-sm-12 col-xs-24">
+                    <div class="destination-box">
+                        <div class="box-cover">
+                            <div id="second-picture" style="width: 440px;height:400px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-sm-12 col-xs-24">
+                    <div class="destination-box">
+                        <div class="box-cover">
+                            <div id="third-picture" style="width:330px;height:400px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gexf-->
+    <section class="section section-homeRelation">
+        <!-- Title -->
+        <div class="section-title">
+            <div class="container">
+                <h2 class="title">Subject field ontology relational data and visualization</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div id="net1" style="width: 50%;height:600px; text-align: center; float: left"></div>
+            <div id="net2" style="width: 50%;height:600px; text-align: center; float: left"></div>
+        </div>
+    </section>
+
+    <!-- Parallax Box -->
+    <div class="parallax-box">
+        <div class="container">
+            <form class="text align-center" method="post" enctype="multipart/form-data">
+                <h1>Basic in PDF paper generate a knowledge graph</h1>
+                <div class="neo4j-graph">
+                    <div id="d3-graph"
+                         style="width: 1000px;height:600px;background-color: white;display:block;margin: 0 auto;"></div>
+                </div>
+                <div class="input-line">
+                    {% csrf_token %}
+                    <input type="file" id="FileUploads" name="FileUploads" class="btn btn-special no-icon"
+                           accept=".pdf">
+                    <button type="button" id="ajax-submit" name="d3-submit" class="btn btn-special no-icon">Upload
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- Footer -->
+{#<footer class="main-footer">#}
+{#    <div class="container">#}
+{#        <div class="row">#}
+{#            <div class="col-md-10">#}
+{#                <div class="widget widget_links">#}
+{#                    <h5 class="widget-title">Email</h5>#}
+{#                    <ul>#}
+{#                        <li><a href="mailto:xiangpeiyan1@gmail.com">xiangpeiyan1@gmail.com</a></li>#}
+{#                        <li><a href="https://lelandyan.github.io//">@ Copyright 2021 AcaFinder, lelandyan.github.io</a>#}
+{#                        </li>#}
+{##}
+{#                    </ul>#}
+{#                </div>#}
+{#            </div>#}
+{##}
+{#            <div class="col-md-10">#}
+{#                <div class="widget widget_social">#}
+{#                    <h5 class="widget-title">Subscribe to our newsletter</h5>#}
+{#                    <form class="subscribe-form">#}
+{#                        <div class="input-line">#}
+{#                            <input type="text" name="subscribe-email" value="" placeholder="Your email address"/>#}
+{#                        </div>#}
+{#                        <button type="button" name="subscribe-submit" class="btn btn-special no-icon">Subscribe</button>#}
+{#                    </form>#}
+{#                </div>#}
+{#            </div>#}
+{##}
+{#        </div>#}
+{#    </div>#}
+{#</footer>#}
+
+<!-- Scripts -->
+<script src="../static/js/jquery.js"></script>
+<script src="../static/js/echarts.js"></script>
+<script src="../static/js/functions.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+<script type="text/javascript" src="../static/js/readGexf.js"></script>
+{#<script type="text/javascript" src='../static/js/echarts.simple.js'></script>#}
+<script type="text/javascript" src='../static/js/echarts-wordcloud.js'></script>
+<script type="text/javascript" src='../static/js/d3.v3.min.js'></script>
+
+<script type="text/javascript">
+    var chartDom = document.getElementById('first-picture');
+    var myChart = echarts.init(chartDom);
+    var option;
+    var builderJson = {
+        "all": 800,
+        "charts": {
+            "Wen Gao": 401,
+            "M Li": 403,
+            "G B Shelly": 408,
+            "Hector Garcia-Molina": 408,
+            "E. R. Hancock": 409,
+            "Sudhakar M. Reddy": 426,
+            "C. C. Chang": 437,
+            "Kang G. Shin": 439,
+            "Jiawei Han": 462,
+            "M. Kandemir": 485,
+            "N. E. Mastorakis": 502,
+            "P S Yu": 598,
+            "Elisa Bertino": 598,
+            "Jack J. Dongarra": 601
+        },
+        "components": {
+            "Wen Gao": 401,
+            "M Li": 403,
+            "G B Shelly": 408,
+            "Hector Garcia-Molina": 408,
+            "E. R. Hancock": 409,
+            "Sudhakar M. Reddy": 426,
+            "C. C. Chang": 437,
+            "Kang G. Shin": 439,
+            "Jiawei Han	": 462,
+            "M. Kandemir": 485,
+            "N. E. Mastorakis": 502,
+            "P S Yu": 598,
+            "Elisa Bertino": 598,
+            "Jack J. Dongarra": 601
+        },
+        "ie": 9743
+    };
+
+    var downloadJson = {
+        "IEEE Transactions on Information Theory": 11227,
+        "Communications of the ACM": 8522,
+        "IEEE Transactions on Signal Processing	": 8274,
+        "Journal of Computational Physics": 8167,
+        "Automatica (Journal of IFAC)": 7888,
+        "IEEE Transactions on Computers": 7584,
+        "Journal of Computational and Applied Mathematics": 7059,
+        "Theoretical Computer Science": 6827,
+        "Others": 2009128
+    };
+
+    var themeJson = {
+        "IEEE": 139308,
+        "IEEE Computer Society": 20390,
+        "Univ. of Maryland, College Park": 16828,
+        "Stanford Univ., Stanford, CA": 16271,
+        "Massachusetts Institute of Technology, Cambridge": 13604,
+        "University of Washington": 11988,
+        "Carnegie Mellon University, Pittsburgh, PA": 10902,
+        "others": 11078479
+    };
+
+    var canvas = document.createElement('canvas');
+    option = {
+        backgroundColor: {
+            type: 'pattern',
+            image: canvas,
+            repeat: 'repeat'
+        },
+        tooltip: {},
+        title: [{
+            text: 'Author order by number of citation or paper',
+            {#subtext: 'total ' + builderJson.all,#}
+            left: '28%',
+            textAlign: 'center'
+        }, {
+            text: 'Papers accepted by venue',
+            {# subtext: 'total ' + Object.keys(downloadJson).reduce(function (all, key) {#}
+            {#   return all + downloadJson[key];#}
+            {#    }, 0), #}
+            left: '75%',
+            textAlign: 'center'
+        }, {
+            text: 'Papers accepted by affiliation',
+            {# subtext: '总计 ' + Object.keys(themeJson).reduce(function (all, key) { #}
+            {#    return all + themeJson[key]; #}
+            {# }, 0), #}
+            left: '75%',
+            top: '50%',
+            textAlign: 'center'
+        }],
+        grid: [{
+            top: 50,
+            width: '50%',
+            bottom: '45%',
+            left: 10,
+            containLabel: true
+        }, {
+            top: '55%',
+            width: '50%',
+            bottom: 0,
+            left: 10,
+            containLabel: true
+        }],
+        xAxis: [{
+            type: 'value',
+            max: builderJson.all,
+            splitLine: {
+                show: false
+            }
+        }, {
+            type: 'value',
+            max: builderJson.all,
+            gridIndex: 1,
+            splitLine: {
+                show: false
+            }
+        }],
+        yAxis: [{
+            type: 'category',
+            data: Object.keys(builderJson.charts),
+            axisLabel: {
+                interval: 0,
+                rotate: 0
+            },
+            splitLine: {
+                show: false
+            }
+        }, {
+            gridIndex: 1,
+            type: 'category',
+            data: Object.keys(builderJson.components),
+            axisLabel: {
+                interval: 0,
+                rotate: 0
+            },
+            splitLine: {
+                show: false
+            }
+        }],
+        series: [{
+            type: 'bar',
+            stack: 'chart',
+            z: 3,
+            label: {
+                position: 'right',
+                show: true
+            },
+            data: Object.keys(builderJson.charts).map(function (key) {
+                return builderJson.charts[key];
+            })
+        }, {
+            type: 'bar',
+            stack: 'chart',
+            silent: true,
+            itemStyle: {
+                color: '#eee'
+            },
+            data: Object.keys(builderJson.charts).map(function (key) {
+                return builderJson.all - builderJson.charts[key];
+            })
+        }, {
+            type: 'bar',
+            stack: 'component',
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+            z: 3,
+            label: {
+                position: 'right',
+                show: true
+            },
+            data: Object.keys(builderJson.components).map(function (key) {
+                return builderJson.components[key];
+            })
+        }, {
+            type: 'bar',
+            stack: 'component',
+            silent: true,
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+            itemStyle: {
+                color: '#eee'
+            },
+            data: Object.keys(builderJson.components).map(function (key) {
+                return builderJson.all - builderJson.components[key];
+            })
+        }, {
+            type: 'pie',
+            radius: [0, '30%'],
+            center: ['75%', '25%'],
+            data: Object.keys(downloadJson).map(function (key) {
+                return {
+                    name: key.replace('.js', ''),
+                    value: downloadJson[key]
+                };
+            })
+        }, {
+            type: 'pie',
+            radius: [0, '30%'],
+            center: ['75%', '75%'],
+            data: Object.keys(themeJson).map(function (key) {
+                return {
+                    name: key.replace('.js', ''),
+                    value: themeJson[key]
+                };
+            })
+        }]
+    };
+    option && myChart.setOption(option);
+</script>
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('second-picture'));
+    var dataAxis = ['data mining', 'neural network'];
+    var data = [63142, 54872];
+    var yMax = 70000;
+    var dataShadow = [];
+
+    for (var i = 0; i < data.length; i++) {
+        dataShadow.push(yMax);
+    }
+
+    option = {
+        title: {
+            text: 'Interest research keys',
+            subtext: 'Do field keyword extraction according to the number of articles'
+        },
+        xAxis: {
+            data: dataAxis,
+            axisLabel: {
+                inside: true,
+                textStyle: {
+                    color: '#fff'
+                }
+            },
+            axisTick: {
+                show: false
+            },
+            axisLine: {
+                show: false
+            },
+            z: 10
+        },
+        yAxis: {
+            axisLine: {
+                show: false
+            },
+            axisTick: {
+                show: false
+            },
+            axisLabel: {
+                textStyle: {
+                    color: '#999'
+                }
+            }
+        },
+        dataZoom: [
+            {
+                type: 'inside'
+            }
+        ],
+        series: [
+            {
+                type: 'bar',
+                showBackground: true,
+                itemStyle: {
+                    color: new echarts.graphic.LinearGradient(
+                        0, 0, 0, 1,
+                        [
+                            {offset: 0, color: '#83bff6'},
+                            {offset: 0.5, color: '#188df0'},
+                            {offset: 1, color: '#188df0'}
+                        ]
+                    )
+                },
+                emphasis: {
+                    itemStyle: {
+                        color: new echarts.graphic.LinearGradient(
+                            0, 0, 0, 1,
+                            [
+                                {offset: 0, color: '#2378f7'},
+                                {offset: 0.7, color: '#2378f7'},
+                                {offset: 1, color: '#83bff6'}
+                            ]
+                        )
+                    }
+                },
+                data: data
+            }
+        ]
+    };
+
+    // Enable data zoom when user click bar.
+    var zoomSize = 6;
+    myChart.on('click', function (params) {
+        {#console.log(dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)]);#}
+        myChart.dispatchAction({
+            type: 'dataZoom',
+            startValue: dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)],
+            endValue: dataAxis[Math.min(params.dataIndex + zoomSize / 2, data.length - 1)]
+        });
+    });
+    myChart.setOption(option);
+</script>
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('third-picture'));
+    option = {
+        title: {
+            text: "Research interests word cloud",
+            link: 'https://github.com/lelandyan',
+            subtext: 'research interests',
+            sublink: 'https://github.com/lelandyan',
+        },
+        tooltip: {},
+        series: [{
+            type: 'wordCloud',
+            gridSize: 1,
+            sizeRange: [5, 30],
+            rotationRange: [-90, 90],
+            width: '100%',
+            height: '100%',
+            shape: 'circle',
+            textStyle: {
+                normal: {
+                    color: function () {
+                        return 'rgb(' + [
+                            Math.round(Math.random() * 160),
+                            Math.round(Math.random() * 160),
+                            Math.round(Math.random() * 160)
+                        ].join(',') + ')';
+                    }
+                },
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowColor: '#333'
+                }
+            },
+            data: [{
+                name: 'sensor network',
+                value: 75095,
+                textStyle: {
+                    normal: {
+                        color: 'black'
+                    },
+                    emphasis: {
+                        color: 'red'
+                    }
+                }
+            }, {
+                name: 'data mining',
+                value: 63142
+            }, {
+                name: 'wireless network',
+                value: 59901
+            }, {
+                name: 'wireless sensor network',
+                value: 59314
+            }, {
+                name: 'neural network',
+                value: 54872
+            }, {
+                name: 'software system',
+                value: 52548
+            }, {
+                name: 'genetic algorithm',
+                value: 46883
+            }, {
+                name: 'data structure',
+                value: 46449
+            }, {
+                name: 'power consumption',
+                value: 41283
+            }, {
+                name: 'software engineering',
+                value: 38453
+            }, {
+                name: 'high performance',
+                value: 38813
+            }, {
+                name: 'social network',
+                value: 33593
+            }, {
+                name: 'approximation algorithm',
+                value: 33233
+            }, {
+                name: 'information retrieval',
+                value: 26777
+            }, {
+                name: 'web service',
+                value: 24809
+            }, {
+                name: 'computer science',
+                value: 24365
+            }, {
+                name: 'mobile phone',
+                value: 23974
+            }, {
+                name: 'multi-agent system',
+                value: 21912
+            }, {
+                name: 'programming language',
+                value: 21925
+            }, {
+                name: 'virtual environment',
+                value: 24050
+            }, {
+                name: 'parallel algorithm',
+                value: 18853
+            }, {
+                name: 'search engine',
+                value: 19141
+            }, {
+                name: 'complex system',
+                value: 13965
+            }, {
+                name: 'image processing',
+                value: 13901
+            }, {
+                name: 'image segmentation',
+                value: 13863
+            }, {
+                name: 'computational complexity',
+                value: 12519
+            }, {
+                name: 'security policy',
+                value: 11543
+            }, {
+                name: 'system design',
+                value: 11483
+            }, {
+                name: 'computer network',
+                value: 9888
+            }, {
+                name: 'collaborative learning',
+                value: 9843
+            }]
+        }]
+    };
+    myChart.setOption(option);
+</script>
+<script type="text/javascript">
+    $(function () {
+        $("#ajax-submit").click(function () {
+            var fileObj = $("#FileUploads")[0].files[0]; // js 获取文件对象
+            if (typeof (fileObj) == "undefined" || fileObj.size <= 0) {
+                alert("请选择文件");
+                return;
+            }
+            var formFile = new FormData();
+            formFile.append('csrfmiddlewaretoken', $('[name="csrfmiddlewaretoken"]').val());
+            formFile.append("file", fileObj); //加入文件对象
+            {#console.log(formFile.getAll("file"));#}
+            //第二种 ajax 提交
+            $.ajax({
+                url: "http://127.0.0.1:8000/upload",
+                data: formFile,
+                type: "Post",
+                dataType: "json",
+                cache: false,//上传文件无需缓存
+                processData: false,//用于对data参数进行序列化处理 这里必须false
+                contentType: false, //必须
+                success: function (result) {
+                    $("#d3-graph").empty();
+                    var links = eval(result);
+                    console.log(links);
+                    var nodes = {};
+
+                    links.forEach(function (link) {
+                        link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+                        link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
+                    });
+
+                    var width = 1200, height = 800;
+
+                    var force = d3.layout.force()
+                        .nodes(d3.values(nodes))
+                        .links(links)
+                        .size([width, height])
+                        .linkDistance(150)
+                        .charge(-150)
+                        .on("tick", tick)
+                        .start();
+
+                    var svg = d3.select("#d3-graph").append("svg")
+                        .attr("width", width)
+                        .attr("height", height);
+
+                    var marker =
+                        svg.append("marker")
+                            .attr("id", "resolved")
+                            .attr("markerUnits", "userSpaceOnUse")
+                            .attr("viewBox", "0 -5 10 10")
+                            .attr("refX", 32)
+                            .attr("refY", -1)
+                            .attr("markerWidth", 5)
+                            .attr("markerHeight", 5)
+                            .attr("orient", "auto")
+                            .attr("stroke-width", 2)
+                            .append("path")
+                            .attr("d", "M0,-5L10,0L0,5")
+                            .attr('fill', '#000000');
+
+                    var edges_line = svg.selectAll(".edgepath")
+                        .data(force.links())
+                        .enter()
+                        .append("path")
+                        .attr({
+                            'd': function (d) {
+                                return 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y
+                            },
+                            'class': 'edgepath',
+                            'id': function (d, i) {
+                                return 'edgepath' + i;
+                            }
+                        })
+                        .style("stroke", function (d) {
+                            var lineColor;
+                            lineColor = "#B43232";
+                            return lineColor;
+                        })
+                        .style("pointer-events", "none")
+                        .style("stroke-width", 0.5)
+                        .attr("marker-end", "url(#resolved)");
+
+                    var edges_text = svg.append("g").selectAll(".edgelabel")
+                        .data(force.links())
+                        .enter()
+                        .append("text")
+                        .style("pointer-events", "none")
+                        .attr({
+                            'class': 'edgelabel',
+                            'id': function (d, i) {
+                                return 'edgepath' + i;
+                            },
+                            'dx': 0,
+                            'dy': 0
+                        });
+
+                    edges_text.append('textPath')
+                        .attr('xlink:href', function (d, i) {
+                            return '#edgepath' + i
+                        })
+                        .style("pointer-events", "none")
+                        .text(function (d) {
+                            return d.rela;
+                        });
+
+                    var circle = svg.append("g").selectAll("circle")
+                        .data(force.nodes())
+                        .enter().append("circle")
+                        .style("fill", function (node) {
+                            var color;
+                            var link = links[node.index];
+                            if (node.weight > 3) {
+                                color = "e3a1e3";
+                            } else if (node.weight > 1) {
+                                color = "#F9EBF9";
+                            } else {
+                                color = "#e6e6fa";
+                            }
+                            return color;
+                        })
+                        .style('stroke', function (node) {
+                            var color;
+                            var link = links[node.index];
+                            color = "#A254A2";
+                            return color;
+                        })
+                        .attr("r", 15)
+                        .on("click", function (node) {
+                            edges_line.style("stroke-width", function (line) {
+                                {#console.log(line);#}
+                                if (line.source.name == node.name || line.target.name == node.name) {
+                                    return 4;
+                                } else {
+                                    return 0.5;
+                                }
+                            });
+                        })
+                        .call(force.drag);
+
+                    var text = svg.append("g").selectAll("text")
+                        .data(force.nodes())
+                        .enter()
+                        .append("text")
+                        .attr("dy", ".20em")
+                        .attr("text-anchor", "middle")
+                        .style('fill', function (node) {
+                            var color;
+                            var link = links[node.index];
+                            color = "#A254A2";
+                            return color;
+                        }).attr('x', function (d) {
+                            var re_en = /[a-zA-Z]+/g;
+                            if (d.name.match(re_en)) {
+                                d3.select(this).append('tspan')
+                                    .attr('x', 0)
+                                    .attr('y', 2)
+                                    .text(function () {
+                                        return d.name;
+                                    });
+                            } else if (d.name.length <= 4) {
+                                d3.select(this).append('tspan')
+                                    .attr('x', 0)
+                                    .attr('y', 2)
+                                    .text(function () {
+                                        return d.name;
+                                    });
+                            } else {
+                                var top = d.name.substring(0, 4);
+                                var bot = d.name.substring(4, d.name.length);
+
+                                d3.select(this).text(function () {
+                                    return '';
+                                });
+
+                                d3.select(this).append('tspan')
+                                    .attr('x', 0)
+                                    .attr('y', -7)
+                                    .text(function () {
+                                        return top;
+                                    });
+
+                                d3.select(this).append('tspan')
+                                    .attr('x', 0)
+                                    .attr('y', 10)
+                                    .text(function () {
+                                        return bot;
+                                    });
+                            }
+                        });
+
+                    function tick() {
+                        circle.attr("transform", transform1);
+                        text.attr("transform", transform2);
+
+                        edges_line.attr('d', function (d) {
+                            var path = 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y;
+                            return path;
+                        });
+
+                        edges_text.attr('transform', function (d, i) {
+                            if (d.target.x < d.source.x) {
+                                bbox = this.getBBox();
+                                rx = bbox.x + bbox.width / 2;
+                                ry = bbox.y + bbox.height / 2;
+                                return 'rotate(180 ' + rx + ' ' + ry + ')';
+                            } else {
+                                return 'rotate(0)';
+                            }
+                        });
+                    }
+
+                    function linkArc(d) {
+                        return 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y
+                    }
+
+                    function transform1(d) {
+                        return "translate(" + d.x + "," + d.y + ")";
+                    }
+
+                    function transform2(d) {
+                        return "translate(" + (d.x) + "," + d.y + ")";
+                    }
+                },
+            })
+        })
+    })
+</script>
+<style type="text/css">
+    .link {
+        fill: none;
+        stroke: #666;
+        stroke-width: 1.5px;
+    }
+
+    #licensing {
+        fill: green;
+    }
+
+    .link.licensing {
+        stroke: green;
+    }
+
+    .link.resolved {
+        stroke-dasharray: 0, 21;
+    }
+
+    circle {
+        fill: #ccc;
+        stroke: #333;
+        stroke-width: 1.5px;
+    }
+
+    text {
+        font: 12px Microsoft YaHei;
+        pointer-events: none;
+        text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+    }
+
+    .linetext {
+        font-size: 12px;
+    }
+</style>
+</body>
+</html>

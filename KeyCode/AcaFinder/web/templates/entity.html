@@ -1,0 +1,510 @@
+{% extends 'common.html' %}
+
+{% block body %}
+    <title>Person Entity</title>
+    <link rel="stylesheet" href="../static/css/maincss.css">
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+
+
+    <div class="main-content">
+        {#        <div class = "col-md-12" style="display: flex">#}
+        {#            <form id='extInfoForm'>#}
+        {#                <div >#}
+        {#                    <input type="text" id = "extInfo" name = "extInfo" class="form-control form-input check-value" placeholder="Input Html" aria-describedby="basic-addon1">#}
+        {#                    <span class="btn btn-primary input-group-addon" type="button" id="extInfoButton" style="background-color:#4592fe ; padding:6px 38px">Go</span>#}
+        {#                </div>#}
+        {#            </form>#}
+        {#        </div>#}
+        {% if nothing %}<h2>Sorry, Not Found In Database.</h2>{% endif %}
+
+        <!--relation start-->
+        {% if authorProfile %}
+            <div class="top-content" style="display: flex">
+                <div class="profile" id="profile">
+                    <div class="profile-text" id="profile-text"></div>
+                    <br>
+                    <div class="line-graph-div" id="line-graph-div" style="width: 420px;height:200px;"></div>
+                </div>
+                <div class="sun-graph">
+                    <h2>Research Interests</h2>
+                    <div class="sun-graph-div" id="sun-graph-div" style="width: 400px;height:300px;"></div>
+                </div>
+
+                <div class="pie-graph">
+                    <h2>Collaborators</h2>
+                    <div class="pie-graph-div" id="pie-graph-div" style="width: 500px;height:300px;"></div>
+                </div>
+            </div>
+
+
+            <div class="" style="display: flex; text-align: center">
+                <div class="neo4j-graph">
+                    <div id="graph" style="width: 800px;height:500px;"></div>
+                </div>
+
+                <div class="container">
+                    <h2>Recommended Coauthors</h2>
+                    <div class="card-stack">
+                        <div class="buttons prev"><</div>
+                        <ul class="card-list">
+                            <li class="card" style="background: linear-gradient(to right, #b1b1b1, #dfdfe7);">
+                                <img src="../static/images/scholar.png" alt="Sun" class="card-list__image">
+                                <h3 class="card-list__text" id="rec4"></h3>
+                            </li>
+                            <li class="card" style="background: linear-gradient(to right, #b1b1b1, #dfdfe7);">
+                                <img src="../static/images/scholar.png" alt="Sun" class="card-list__image">
+                                <h3 class="card-list__text" id="rec3"></h3>
+                            </li>
+                            <li class="card" style="background: linear-gradient(to right, #b1b1b1, #dfdfe7);">
+                                <img src="../static/images/scholar.png" alt="Sun" class="card-list__image">
+                                <h3 class="card-list__text" id="rec2"></h3>
+                            </li>
+                            <li class="card" style="background: linear-gradient(to right, #b1b1b1, #dfdfe7);">
+                                <img src="../static/images/scholar.png" alt="Sun" class="card-list__image">
+                                <h3 class="card-list__text" id="rec1"></h3>
+                            </li>
+                            <li class="card" style="background: linear-gradient(to right, #b1b1b1, #dfdfe7);">
+                                <img src="../static/images/scholar.png" alt="Sun" class="card-list__image">
+                                <h3 class="card-list__text" id="rec0"></h3>
+                            </li>
+                        </ul>
+                        <div class="buttons next">></div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline">
+                <div id="news-content" class="owl-carousel"></div>
+            </div>
+            <div class="timeline">
+                <div id="news-slider" class="owl-carousel"></div>
+            </div>
+
+            <div class="paper-list" id="paper-list"></div>
+        {% endif %}
+    </div>
+
+    {% if authorProfile %}
+        <script src="../static/js/jquery.js"></script>
+        <script src="../static/js/owl.carousel.min.js"></script>
+        <script src="../static/js/echarts.js"></script>
+        <!-- Recommendation -->
+        <script type="text/javascript">
+            let $card = $('.card');
+            let lastCard = $(".card-list .card").length - 1;
+
+            $('.next').click(function () {
+                let prependList = function () {
+                    if ($('.card').hasClass('activeNow')) {
+                        var $slicedCard = $('.card').slice(lastCard).removeClass('transformThis activeNow');
+                        $('ul').prepend($slicedCard);
+                    }
+                };
+                $('li').last().removeClass('transformPrev').addClass('transformThis').prev().addClass('activeNow');
+                setTimeout(function () {
+                    prependList();
+                }, 150);
+            });
+
+            $('.prev').click(function () {
+                let appendToList = function () {
+                    if ($('.card').hasClass('activeNow')) {
+                        var $slicedCard = $('.card').slice(0, 1).addClass('transformPrev');
+                        $('.card-list').append($slicedCard);
+                    }
+                };
+
+                $('li').removeClass('transformPrev').last().addClass('activeNow').prevAll().removeClass('activeNow');
+                setTimeout(function () {
+                    appendToList();
+                }, 150);
+            });
+            //
+            $(document).ready(function () {
+                $.getJSON('/ajax_rec_coauthor/', function (ret) {
+                    let res = ret['rec_author'];
+                    document.getElementById("rec0").innerHTML = '<h2><a href="javascript:void(0);" onclick="single_entity(this)" authorID=' + res[0]['authorID'] + '>' + res[0]['authorName'] + '</a></h2>H-Index:' +
+                        res[0]['hi'] + '<br>Papers: ' + res[0]['pc'] + '<br>Total Citations:' + res[0]['pc'] +
+                        '<br><span class="rec-prob">Confidence: ' + 100 * res[0]['prob'].toFixed(2) + '%</span>';
+                    document.getElementById("rec1").innerHTML = '<h2><a href="javascript:void(0);" onclick="single_entity(this)" authorID=' + res[1]['authorID'] + '>' + res[1]['authorName'] + '</a></h2>H-Index:' +
+                        res[1]['hi'] + '<br>Papers: ' + res[1]['pc'] + '<br>Total Citations:' + res[1]['pc'] +
+                        '<br><span class="rec-prob">Confidence: ' + 100 * res[1]['prob'].toFixed(2) + '%</span>';
+                    document.getElementById("rec2").innerHTML = '<h2><a href="javascript:void(0);" onclick="single_entity(this)" authorID=' + res[2]['authorID'] + '>' + res[2]['authorName'] + '</a></h2>H-Index:' +
+                        res[2]['hi'] + '<br>Papers: ' + res[2]['pc'] + '<br>Total Citations:' + res[2]['pc'] +
+                        '<br><span class="rec-prob">Confidence: ' + 100 * res[2]['prob'].toFixed(2) + '%</span>';
+                    document.getElementById("rec3").innerHTML = '<h2><a href="javascript:void(0);" onclick="single_entity(this)" authorID=' + res[3]['authorID'] + '>' + res[3]['authorName'] + '</a></h2>H-Index:' +
+                        res[3]['hi'] + '<br>Papers: ' + res[3]['pc'] + '<br>Total Citations:' + res[3]['pc'] +
+                        '<br><span class="rec-prob">Confidence: ' + 100 * res[3]['prob'].toFixed(2) + '%</span>';
+                    document.getElementById("rec4").innerHTML = '<h2><a href="javascript:void(0);" onclick="single_entity(this)" authorID=' + res[4]['authorID'] + '>' + res[4]['authorName'] + '</a></h2>H-Index:' +
+                        res[4]['hi'] + '<br>Papers: ' + res[4]['pc'] + '<br>Total Citations:' + res[4]['pc'] +
+                        '<br><span class="rec-prob">Confidence: ' + 100 * res[4]['prob'].toFixed(2) + '%</span>';
+                    {#console.log(res);#}
+                })
+            });
+
+            function single_entity(objInfo) {
+                let authorID = $(objInfo).attr("authorID");
+                document.location.href = 'entity?user_text=' + authorID;
+            }
+        </script>
+        <script type="text/javascript">
+            //For Profile;
+            let authorProfile = {{ authorProfile|safe }};
+            //For paper year
+            let year = {{ year|safe }};
+            let year_cnt = {{ year_cnt|safe }};
+            let dataShadow = {{ data_shadow|safe }};
+            //For interest div
+            let interest_ls = {{ interest_ls|safe }};
+            //Based on Echarts
+            let categories = {{ categories|safe }};
+            let data = {{ data|safe }};
+            let links = {{ links |safe }};
+            let co_author = {{ co_author | safe }};
+            let global_color = [
+                "#2ec7c9",
+                "#b6a2de",
+                "#5ab1ef",
+                "#ffb980",
+                "#8d98b3",
+                "#e5cf0d",
+                "#97b552",
+                "#07a2a4",
+                "#9a7fd1",
+                "#588dd5",
+                "#f5994e",
+            ];
+
+            // author profile
+            authorProfile = "<img src='../static/images/male.png' width='110' height='130' style='float: left; margin:0 10px 10px 10px'/>" + authorProfile;
+            document.getElementById("profile-text").innerHTML = authorProfile;
+
+            // graph
+            let myChart = echarts.init(document.getElementById('graph'));
+            option = {
+                color: global_color,
+                tooltip: {},
+                legend: [{
+                    x: 'center',
+                    y: 'top',
+                    orient: 'horizontal',
+                    data: categories.map(function (a) {
+                        return a.name;
+                    }),
+                    selected: {
+                        'Paper': false,
+                        'Coauthor': false,
+                    }
+                }],
+                zoom: 1.5,
+                animation: true,
+                series: [
+                    {
+                        type: 'graph',
+                        layout: 'force',
+                        data: data,
+                        links: links,
+                        categories: categories,
+                        roam: true,
+                        label: {
+                            normal: {
+                                show: true,
+                                textStyle: {
+                                    fontSize: 12,
+                                },
+                            }
+                        },
+                        edgeSymbol: ['none', 'arrow'],
+                        edgeLabel: {
+                            normal: {
+                                show: true,
+                                textStyle: {
+                                    fontSize: 10
+                                },
+                                formatter: "{c}"
+                            }
+                        },
+                        lineStyle: {
+                            normal: {
+                                opacity: 0.6,
+                                width: 1.3,
+                                curveness: 0,
+                                color: "#262626"
+                            }
+                        },
+                        force: {
+                            repulsion: 1000
+                        }
+                    }
+                ]
+            };
+            myChart.setOption(option);
+
+            // paper
+            let myLineChart = echarts.init(document.getElementById('line-graph-div'));
+            option = {
+                title: {
+                    text: 'Paper',
+                    subtext: ''
+                },
+                xAxis: {
+                    data: year,
+                    axisLabel: {
+                        inside: false,
+                        textStyle: {
+                            color: '#000'
+                        }
+                    },
+                    axisTick: {
+                        show: false
+                    },
+                    axisLine: {
+                        show: false
+                    },
+                    z: 10
+                },
+                yAxis: {
+                    axisLine: {
+                        show: false
+                    },
+                    axisTick: {
+                        show: false
+                    },
+                    axisLabel: {
+                        textStyle: {
+                            color: '#999'
+                        }
+                    }
+                },
+                dataZoom: [
+                    {
+                        type: 'inside'
+                    }
+                ],
+                series: [
+                    { // For shadow
+                        type: 'bar',
+                        itemStyle: {
+                            color: 'rgba(0,0,0,0.05)'
+                        },
+                        barGap: '-100%',
+                        barCategoryGap: '40%',
+                        data: dataShadow,
+                        animation: false
+                    },
+                    {
+                        type: 'bar',
+                        itemStyle: {
+                            color: new echarts.graphic.LinearGradient(
+                                0, 0, 0, 1,
+                                [
+                                    {offset: 0, color: '#83bff6'},
+                                    {offset: 0.5, color: '#188df0'},
+                                    {offset: 1, color: '#188df0'}
+                                ]
+                            )
+                        },
+                        emphasis: {
+                            itemStyle: {
+                                color: new echarts.graphic.LinearGradient(
+                                    0, 0, 0, 1,
+                                    [
+                                        {offset: 0, color: '#2378f7'},
+                                        {offset: 0.7, color: '#2378f7'},
+                                        {offset: 1, color: '#83bff6'}
+                                    ]
+                                )
+                            }
+                        },
+                        data: year_cnt
+                    }
+                ]
+            };
+            myLineChart.setOption(option);
+            let zoomSize = 6;
+            myLineChart.on('click', function (params) {
+                myLineChart.dispatchAction({
+                    type: 'dataZoom',
+                    startValue: year[Math.max(params.dataIndex - zoomSize / 2, 0)],
+                    endValue: year[Math.min(params.dataIndex + zoomSize / 2, data.length - 1)]
+                });
+            });
+
+            // interest
+            let mySunChart = echarts.init(document.getElementById('sun-graph-div'));
+            option = {
+                color: global_color,
+                series: {
+                    type: 'sunburst',
+                    highlightPolicy: 'ancestor',
+                    data: interest_ls,
+                    radius: [0, '95%'],
+                    sort: null,
+                    levels: [{}, {
+                        r0: '50%',
+                        r: '25%',
+                        itemStyle: {
+                            borderWidth: 2
+                        },
+                        label: {
+                            position: 'outside',
+                            padding: -10,
+                            silent: false,
+                            fontSize: 10,
+                        }
+                    }]
+                }
+            };
+            mySunChart.setOption(option);
+
+            // collaborator
+            let myPieChart = echarts.init(document.getElementById('pie-graph-div'));
+            let coauthor_ls = [];
+            let others_co = {};
+            others_co['name'] = 'others';
+            others_co['value'] = 0;
+            for (let i = 0; i < co_author.length; i++) {
+                let item = {};
+                item['name'] = co_author[i]['n2']['authorName'];
+                item['value'] = co_author[i]['rel']['n_cooperation'];
+                if (item['value'] < 3 && co_author.length > 20) {
+                    others_co['value'] += 1;
+                    continue;
+                }
+                coauthor_ls.push(item);
+            }
+            if (co_author.length < 20) {
+                coauthor_ls.push(others_co);
+            }
+            option = {
+                color: global_color,
+                series: [
+                    {
+                        name: 'collaborators',
+                        type: 'pie',
+                        radius: [5, 100],
+                        roseType: 'area',
+                        data: coauthor_ls,
+                    }
+                ]
+            };
+            myPieChart.setOption(option);
+
+            //interest2
+            //Highcharts.chart('sun-graph-div', {
+            //	series: [{
+            //		type: 'wordcloud',
+            //		data: interest_ls
+            //	}],
+            //	title: {
+            //		text: '词云图'
+            //	},
+            //    credits: {
+            //        enabled: false
+            //    },
+            //});
+
+        </script>
+        <!-- Lazy Load -->
+        <script type="text/javascript">
+            //For paper-lists
+            $(document).ready(function () {
+                $.getJSON('/ajax_return_paper/', function (ret) {
+                    let papers_detail = ret['papers_detail'];
+                    let year_paper = ret['year_paper'];
+                    var paper_div_str = '';
+                    var paper_cnt = 0;
+                    for (let k in papers_detail) {
+                        paper_div_str += '<div class = "paper-item"><h2>' + papers_detail[k]['paperTitle'] +
+                            '</h2><span class="paper-venue-year"><img src="../static/images/book.png" alt="Affiliation" width="14" height="15"/> ' +
+                            papers_detail[k]['venue']['venueName'] +
+                            ', (' + papers_detail[k]['paperYear'] + ')' + '</span><br><span class="paper-authors">';
+                        paper_div_str += '<img src="../static/images/author.png" alt="Affiliation" width="14" height="15"/> ';
+                        for (let a in papers_detail[k]['authors']) {
+                            paper_div_str += papers_detail[k]['authors'][a]['authorName'] + ', ';
+                        }
+                        paper_div_str += '</span>';
+                        if (papers_detail[k]['paperAbstract']) {
+                            paper_div_str += '<br><br><span class="paper-abstract">' + papers_detail[k]['paperAbstract'] + '</span><br>';
+                        }
+
+                        paper_div_str += '<br><img src="../static/images/earth.png" alt="Affiliation" width="15" />  ' +
+                            '<img src="../static/images/link.png" alt="Affiliation" width="15" /> ' + '</div>';
+                        paper_cnt += 1;
+
+                    }
+                    document.getElementById("paper-list").innerHTML = paper_div_str;
+
+                    // for year paper
+                    var year_slider_str = '';
+                    for (let year in year_paper) {
+                        year_slider_str += '<div class="post-slide" style="display:inline-block;height:auto" ><div class="post-content" style="display:inline-block;"><h3 class="post-title">' +
+                            year + '</h3>';
+                        for (let i = 0; i < Math.min(year_paper[year].length, 2); i++) {
+                            year_slider_str += '<p class="post-description">' + year_paper[year][i] + '</p>'
+                        }
+                        year_slider_str += '</div></div>';
+                    }
+                    document.getElementById("news-slider").innerHTML = year_slider_str;
+                    $("#news-slider").owlCarousel({
+                        items: 3,
+                        itemsDesktop: [1199, 2],
+                        itemsDesktopSmall: [980, 2],
+                        itemsMobile: [600, 1],
+                        pagination: false,
+                        navigationText: false,
+                        autoPlay: 3000,
+                    });
+                })
+            });
+        </script>
+        <!-- extInfo -->
+        {#    <script type="text/javascript">#}
+        {#        $(document).ready(function(){#}
+        {#            $("#extInfoButton").on("click", function(){#}
+        {#                $.getJSON('/ajax_extInfo/', {extURL:$("#extInfo").val()}, function (ret) {#}
+        {#                    if(ret['status'] === 'success'){#}
+        {#                        console.log(ret['data'])#}
+        {#                    }#}
+        {#                })#}
+        {#            })#}
+        {#        })#}
+        {#    </script>#}
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $.getJSON('/ajax_extInfo/', function (ret) {
+                    let email = ret['email'];
+                    let honor_dict = ret['honor_dict'];
+                    let pub_dict = ret['pub_dict'];
+                    let edu_dict = ret['edu_dict'];
+                    var info_div_str = '';
+                    if (ret['status'] === 'ok') {
+                        info_div_str += '<div class="post-slide" style="display:inline-block;height:auto;"><div class="post-content" style="display:inline-block;"><h3 class="post-title">' +
+                            "More information" + '</h3>';
+                        for (let h in honor_dict) {
+                            info_div_str += '<p class="post-description">' + "Honor:" + h + '</p>';
+                        }
+                        for (let p in pub_dict) {
+                            info_div_str += '<p class="post-description">' + "Publication:" + p + '</p>';
+                        }
+                        for (let e in edu_dict) {
+                            info_div_str += '<p class="post-description">' + "Edu:" + e + '</p>';
+                        }
+                        info_div_str += '<p class="post-description">' + "Edu:" + email + '</p>';
+                        info_div_str += '</div></div>';
+                        document.getElementById("news-content").innerHTML = info_div_str;
+                        $("#news-content").owlCarousel({
+                            items: 1,
+                            {#itemsDesktop: [1199, 2],#}
+                            {#itemsDesktopSmall: [980, 2],#}
+                            {#itemsMobile: [600, 1],#}
+                            {#pagination: false,#}
+                            {#navigationText: false,#}
+                            autoPlay: 3000,
+                            autoHeight: true,
+                        });
+                    }
+                });
+            })
+        </script>
+    {% endif %}
+{% endblock %}

@@ -84,8 +84,6 @@
 | 建立一个具有检索和数据分析的科研关系网站                     | :ok_hand: |
 | 实现相关数据的处理和数据展示                                 | :ok_hand: |
 
-
-
 | 相关解释文档                                                 |                       详细解释跳转链接                       |
 | :----------------------------------------------------------- | :----------------------------------------------------------: |
 | 网络爬虫技术分析介绍                                         | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90.md) |
@@ -105,7 +103,7 @@
 | 技术关键词提取以及可视化功能                                 | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E6%8A%80%E6%9C%AF%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E4%BB%A5%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96.md) |
 | 专家技术画像以及专家模型可视化合作专家推荐功能               | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E4%B8%93%E5%AE%B6%E6%8A%80%E6%9C%AF%E7%94%BB%E5%83%8F%E4%BB%A5%E5%8F%8A%E4%B8%93%E5%AE%B6%E6%A8%A1%E5%9E%8B%E5%8F%AF%E8%A7%86%E5%8C%96%E5%90%88%E4%BD%9C%E4%B8%93%E5%AE%B6%E6%8E%A8%E8%8D%90%20.md) |
 
-## 目录结构
+## 项目目录结构
 
 ```python
 ├─AcaFinder
@@ -140,11 +138,7 @@
     └─templates
 ```
 
-
-
 ## 可复用资源
-
-### 数据
 
 #### 1.爬行并整合后科研关系网络RDF三元组数据
 
@@ -186,11 +180,13 @@
 | ------------ | -------------- |
 | acm_data.csv | 11011          |
 
-### 模型代码
-
-
-
 ## 项目配置
+
+#### 0. 本项目运行所需要机器配置以及各种语言类库
+
+该项目主要是基于python编写，其中应用到了java、cypher、javascrpt、Django和jQuery语言等，需要运行在内存为16GB以上的电脑上。本项目是在win10系统下进行编写。
+
+* 首先安装一系列pip依赖，这里提供了anaconda环境和pip下的requirement.txt以供选择。
 
 ## 项目不足
 

@@ -1,0 +1,511 @@
+__label__edu 教育 学士 博士 硕士 博士后
+__label__publication 出版物 发表文章 基金项目 自然 基金 项目
+__label__honor 获得 荣誉 奖
+__label__edu 年于 大连理工大学 获 计算机科学 学士
+__label__edu 年于 大连理工大学 获 计算机软件 理论 与 应用 硕士
+__label__edu 年于 中国科学院自动化研究所 获 模式识别 与 智能 系统 工学 博士
+__label__edu 至今 在 模式识别 国家 重点 实验室 任 助理 研究员 副研究员 项目 研究员 研究员
+__label__edu 入选 中国科学院 脑科学 与 智能 技术 卓越 创新 中心 年轻 骨干
+__label__publication 申请人 长期 从事 图像 模式识别 基础理论 研究 围绕 一簇 共轭 函数 及其 衍生 形式 发展 了 一系列 基于 信息 理论 和 稀疏 学习 的 特征 表达 和 分类 方法 并 应用 到 生物 特征 识别 和 深度 伪造 鉴伪 相关 成果 在 部队 公安 火车站 等 应用
+__label__publication 在 IEEE TPAMI TIP TIFS TNNLS TKDE 等 权威 国际 期刊 以及 ICCV CVPR NIPS IJCAI AAAI 等 权威 国际 会议 发表 论文 篇
+__label__publication 第一 作者 在 IEEE TPAMI 发表 论文 篇
+__label__publication 研究 工作 获得 北京 自然科学 基金委 杰出青年 科学基金 和 国家自然科学基金 委 优秀青年 科学基金 资助
+__label__publication 国家自然科学基金 委 优秀青年 科学 基金项目 图像 分析 与 模式识别
+__label__publication 国家自然科学基金 委 面上 项目 基于 结构 约束 的 多 模态 学习 理论 和 方法
+__label__publication 国家 重点 研发 计划 大 范围 复杂 场景 视觉 大 数据 的 透彻 感知 理论 子课题
+__label__publication 北京市 科协 重大 重点 调研 课题 网络 科学 流言 的 传播 机制 与 对策 研究
+__label__publication 北京 高等学校 高水平 人才 交叉 培养 项目 对抗 生成 网络 及 在 视觉 中 的 应用
+__label__honor CCTV 科教 频道 科普 节目 嘉宾
+__label__honor 中华人民共和国 成立 周年 阅兵 观礼 嘉宾
+__label__honor 中科院 青年 创新 促进会 优秀 会员
+__label__honor 2019Wider Challenge 人脸 检测 冠军
+__label__honor 2019IAPR IEEE ICB Honorable Mention Paper Award
+__label__honor 北京 青年 优秀 科技 论文 一等奖
+__label__honor 吴文俊 人工智能 科学技术 创新 二等奖
+__label__honor 微软 青年 学者 铸星 计划
+__label__honor 2015ACM 北京 分会 新星 奖
+__label__honor 中国科学院 卢嘉锡 青年 人才 奖
+__label__edu 中国 科学技术 大学 获 博士学位
+__label__edu 至今 安徽大学 计算机科学 与 技术 学院 教授
+__label__edu 在 美国 新泽西 理工学院 进行 访学
+__label__publication 在 国内外 重要 学术期刊 和 国际 学术会议 上 发表 学术论文 余篇
+__label__publication 其中 SCI 收录 篇 左右 EI 收录 余篇 TOP 期刊 篇
+__label__publication 申请 多项 国家 发明专利 其中 已 授权 项
+__label__publication 参编 专著 机器 学习 与 智能 决策 系统 科学出版社 半导体 生产 中 的 排序 理论 与 算法 清华大学出版社 待 出版
+__label__publication 先后 主持 两项 国家自然科学基金 及 教育部 青年 基金 省 自然科学 基金 教育厅 自然科学 重点项目 及 企业 委托 横向 项目 等
+__label__publication 担任 国际 期刊 Applied Soft Computing 编委
+__label__publication 担任 IEEE Automation Science and Engineering 自动化 学报 等 国内外 重要 期刊 的 审稿人
+__label__publication 国家自然科学基金 面上 基金 项目编号
+__label__publication 国家自然科学基金 青年 基金 项目编号
+__label__publication 教育部 青年 基金项目 项目编号 15YJC630041
+__label__publication 自然科学 基金 面上 项目 项目编号 1608085MG154
+__label__publication 安徽省教育厅 自然科学 重点项目 项目编号 KJ2015A062
+__label__honor 获 省级 教学 成果 二等奖
+__label__edu 安徽大学 计算机科学 与 技术 学院 教授 副 院长
+__label__edu 出 生于 金寨 中共党员
+__label__edu 晋升 教授
+__label__edu 毕业 安徽大学 计算机 应用 技术 专业 获工学 博士学位
+__label__edu 被 评为 安徽大学 青年 骨干教师 培养对象
+__label__publication 国家 重点 级 及 国家级 学术论文 近 篇
+__label__publication 目前 主持 国家 基金 面上 项目 项 教育部 人文 社科 青年 基金 项 自然 基金 面上 项目 项 安徽省教育厅 自然科学 研究 项目 项
+__label__publication 已经 主持 安徽省教育厅 自然科学 研究 项目 项
+__label__publication 参与 国家级 重大 横向 科技开发 项目 国家 清史 计划 项
+__label__publication 参与 编写 学术著作 和 教材 部
+__label__publication 并 参与 多项 国家级 或 厅级 科研项目 和 教研 项目
+__label__publication 专利申请 实审 项 软件 著作权 项
+__label__publication Xuejun Li Lei Zhang Yang Wu Xiao Liu Erzhou Zhu Huikang Yi Futian Wang Cheng Zhang Yun Yang A Novel Workflow Level Data Placement Strategy for Data Sharing Scientific Cloud Workflows IEEE Transactions on Services Computing vol no pp doi 10.1109 TSC.2016 JCR Q1 IF 2.365
+__label__publication Xuejun Li Ruimiao Ding Xiao Liu Xiangjun Liu Erzhou Zhu and Yunxiang Zhong A Dynamic Pricing Reverse Auction Based Resource Allocation Mechanism in Cloud Workflow Systems Scientific Programming vol Article ID pages doi 10.1155
+__label__publication 李学俊 吴洋 刘晓 程慧敏 朱 二周 混合 云中 面向 数据中心 的 科学 工作 流 数据 布局 方法 软件 学报
+__label__honor 全国 大学生 计算机 博弈 大赛 荣获 点格棋 亚军 项 爱因斯坦 棋 亚军 项和六子 棋 亚马逊 棋 一等奖 项
+__label__honor 全国 大学生 计算机 博弈 大赛 获点 格棋 季军 项 六子 棋 一等奖 项 爱因斯坦 棋和六子 棋 二等奖 项
+__label__honor 全国 大学生 计算机 博弈 大赛 指导 点点 派 在 点格棋 项目 中 荣获 亚军 行云流水 在 爱 恩斯 坦棋 项目 中 荣获 季军 棋开 得胜 在 六子 棋 项目 中 荣获 季军 格子 杀手 队 在 点格棋 项目 中 荣获 一等奖
+__label__honor 全国 大学生 计算机 博弈 大赛 指导 龙 行天下 和 步步 精心 队均 取得 了 二等奖
+__label__edu 本科毕业 安徽大学
+__label__edu 博士 毕业 中国 科学技术 大学 和 中国科学院 合肥 智能 机械 研究所
+__label__edu 在 美国 范 德堡 大学 生物医学 信息 系 从事 博士后 研究 工作
+__label__edu 至今 任教于 安徽大学
+__label__publication Zhenyu Yue Le Zhao Na Cheng and Junfeng Xia dbCID a manually curated resource for exploring the driver indels in human cancer Briefings in Bioinformatics doi 10.1093 bib bby059 Zhenyu Yue
+__label__publication 国家自然科学基金 重点项目 载能 粒子 对 关键 生物 靶 的 分子 调控 机制 与 应用 基础 研究 项目 批准 号 万元 总 经费 万元
+__label__publication 国家自然科学基金 面上 项目 癌症 驱动 突变 的 生物 信息学 分析 和 实验 验证 项目 批准 号 万元 主持
+__label__honor 获 特聘 专家 称号
+__label__honor 入选 学术 和 技术 带头人 后备 人选
+__label__edu 获 中国 科学技术 大学 计算机科学 与 技术 专业 博士学位
+__label__publication Jie Cui Jing Zhang et al SPACF A Secure Privacy Preserving Authentication Scheme for VANET With Cuckoo Filter J IEEE Transactions on Vehicular Technology IF 4.432 车载 电子 领域 顶级 期刊
+__label__publication 崔杰 左 海风 等 对 轻量级 分组 密码 MIBS 和 I PRESENT 的 非对称 Biclique 攻击 J 中国 科学 信息科学
+__label__publication 发明专利 一种 SDN 网络 中 支持 隐私 保护 的 多域 QoS 路径 计算方法 201710474335.0
+__label__publication 国家自然科学基金 面上 项目 5G 车载 网 环境 下 基于 边缘 计算 的 高效 隐私 保护 机制 研究 No
+__label__publication 国家自然科学基金 青年 项目 SPN 型 分组 密码 的 新型 代数 分析方法 研究 No
+__label__honor 获得 教学 成果 一等奖
+__label__honor 荣获 安徽大学 年度 教书育人 先进 工作者 荣誉称号
+__label__honor 荣获 安徽大学 学年度 本科 课堂教学 优秀奖
+__label__honor 指导 学生 在 全国 大学生 信息安全 竞赛 全国 SDN 大赛 等 比赛 中 获得 国家级 奖励 项
+__label__edu 本科毕业 安徽大学 电子系 获工学 学士学位
+__label__edu 保送 研究生 毕业 安徽大学 电路 与 系统 专业 获工学 硕士学位
+__label__edu 安徽大学 计算机科学 与 技术 学院 计算机 应用 技术 专业 攻读 博士 获得 工学 博士学位
+__label__edu 在 美国 得 州 大学 做 访问学者
+__label__publication 在 国内外 学术刊物 和 国际 会议 上 发表 论文 余篇
+__label__publication 主持 的 科研项目 经费 超过 万 获得 国家 发明专利 项
+__label__publication 近期 发表 的 论文 A New Formulation of Linear Discriminant Analysis for Robust Dimensionality Reduction IEEE Transactions on Knowledge and Data Engineering TKDE CCF A SCI 二 区
+__label__publication 基于 稀疏 表示 的 颅脑 创伤 影像 分析 与 辅助 诊断 研究 国家自然科学基金 面上 项目 在 研
+__label__publication 电缆 接头 的 图像识别 与 分析 研究 企业 委托 项目 国网 电力 科学 研究院 在 研
+__label__publication 自然语言 处理 与 文本 数据挖掘 研发 北京大学 深圳 研究院 在 研
+__label__publication 基于 大 数据 智能 预测 电量 模型 国网 电力公司 芜湖县 供电 公司 在 研
+__label__publication 基于 稀疏 表示 的 颅脑 损伤 图像 分析 研究 KJ2016A040 安徽省教育厅 重点项目 结题
+__label__publication 批 留学 回国 人员 科研 启动 基金 教育部 留学 基金 批文 教外 司留 号 颅脑 损伤 的 计算机辅助 诊断 研究 留学人员 科技 活动 择优 资助
+__label__publication 输电 线路 灾害 监测 预警 模型 及 应用 研究 继远 电网 技术 有限责任 公司 结题
+__label__publication 变电站 消防 安防 自动 报警 系统 远程 控制 平台 研究 继远 电网 技术 有限责任 公司 结题
+__label__honor 获 教学 成果 一等奖 第
+__label__honor 指导 学生 获得 大学生 全国 创新 创业 大赛 移动 互联网 专项 赛 金奖
+__label__honor 获 科学技术 奖 三等奖 第
+__label__edu 仲红 女 博士 教授 博士生 导师
+__label__edu 安徽大学 计算机科学 与 技术 学院 院长
+__label__edu 物 联网 安全 技术 工程 实验室 主任
+__label__edu ACM 合肥 分会 常务理事
+__label__edu 计算机 学会 副理事长
+__label__edu 教育部 互联网 应用 创新 开放平台 联盟 理事
+__label__edu 高等学校 计算机教育 研究会 理事
+__label__edu 获 中国 科学技术 大学 计算机科学 与 技术 专业 博士学位
+__label__publication 先后 主持 国家自然科学基金 面上 项目 项 省部级 科研项目 项
+__label__publication 已 发表 论文 余篇 SCI EI 检索 余篇 次
+__label__publication 包括 IEEE Transactions on Dependable and Secure Computing IEEE Transactions on Information Forensics and Security IEEE Transactions on Parallel and Distributed Systems IEEE Transactions on Vehicular Technology IEEE Transactions on Intelligent Transportation Systems IEEE Transactions on Big Data IEEE Internet of Things Journal Journal of Parallel and Distributed Computing Information Sciences Science China Information Sciences 中国 科学 电子学 报等 核心 期刊 和 重要 的 国际 学术会议
+__label__publication 出版 英文 专著 部
+__label__publication 申请 发明专利 项 已 授权 项
+__label__publication 授权 实用新型 专利 项
+__label__publication 取得 软件 著作权 项
+__label__honor 教育部 自然科学 二等奖
+__label__honor 教学 成果 一等奖 项
+__label__honor 连续 荣获 年度 和 年度 安徽大学 教书育人 先进 工作者 荣誉称号
+__label__edu 获得 中国 科学技术 大学 软件工程 专业 学士学位
+__label__edu 获得 中国 科学技术 大学 计算机软件 与 理论 专业 博士学位
+__label__edu 受聘 中国 科学技术 大学 副教授 受聘 安徽大学 教授
+__label__publication 已 主持 完成 国家自然科学基金 青年 项目 项
+__label__publication 江苏省 自然科学 基金 面上 项目 项 中国 博士后 科学基金 项 中国科学院 院长 奖 获得者 科研 启动 专项资金 项目 项 苏州市 科技 计划 项目 项
+__label__publication 目前 正在 主持 国家自然科学基金 面上 项目 项
+__label__publication Zhili Chen Liusheng Huang Zhenshan Yu Wei Yang Lingjun Li Xueling Zheng Xinxin Zhao Linguistic Steganography Detection Using Statistical Characteristics of Correlations between Words C Proceedings of Information Hiding LNCS IH2008 USA 信息 隐藏 权威 会议 每年 仅 录用 论文 篇 左右 CCF B 类 会议 后来 与 ACM MMSEC 合并
+__label__publication 国家自然科学基金 面上 项目 密码学 安全 且 实际 有效 的 动态 频谱 拍卖 机制 研究 No 76.8 万
+__label__honor 中国科学院 院长 奖
+__label__edu 今 安徽大学 计算机科学 与 技术 系 从事 教学 科研工作
+__label__edu 攻读 博士学位 获 安徽大学 计算机 应用 专业 工学 博士
+__label__publication 获 发明专利 项
+__label__publication 发表 论文 多篇 其中 SCI EI ISTP 收录 多篇
+__label__publication 编著 商 空间 与 粒 计算 机器 学习 理论 与 方法 科学出版社 等 部
+__label__publication 主持 完成 国家自然科学基金 项目 项 主持 完成 省 基金项目 省 产学研 项目 项 参加 了 项 国家 及 国家 重点 基金项目
+__label__publication 国家自然科学基金 面上 项目 基于 商 逼近 的 粒 计算 优化 问题 研究 万元
+__label__honor 教学 成果奖 一等奖
+__label__honor 科学技术 二等奖 一项
+__label__edu 阜阳 师范学院 数学 与 计算 科学 学院 本科
+__label__edu 华中科技大学 数学 与 统计 学院 硕士
+__label__edu 华中科技大学 自动化 学院 博士
+__label__edu 安徽大学 计算机科学 与 技术 学院 讲师
+__label__edu 安徽大学 计算机科学 与 技术 学院 副教授
+__label__edu 英国 萨里 大学 计算机系 访问学者
+__label__edu 现在 安徽大学 计算机科学 与 技术 学院 教授
+__label__honor 国家 优青 和 杰青 获得者
+__label__publication 已 主持 完成 国家自然科学基金 项目 项
+__label__publication 现 主持 国家自然科学基金 项目 项
+__label__publication 作为 安徽大学 项目 负责人 主持 国家 自然科学 联合 基金 重点项目 项 及其 它 省部级 项目 多项
+__label__publication 在 国内外 重要 刊物 上 发表 论文 多篇
+__label__publication 以 第一 或 通讯 作者 发表 学术论文 余篇
+__label__publication 其中 SCI 收录 多篇 包括 IEEE TEVC IEEE TNNLS IEEE TCYB IEEE CIM 等 计算 智能 领域 顶级 或 权威 期刊论文 余篇
+__label__publication 篇 论文 入选 ESI 前 1% 高 被 引 论文 担任 国际 期刊 Complex Intelligent Systems 及 International Journal of Bio Inspired 编委
+__label__publication IEEE TEVC IEEE TCYB IEEE TKDE IEEE TKDD Information Sciences 计算机 学报 电子学 报等 国内外 权威 期刊 审稿人
+__label__publication 国际 会议 ACMC 会议 主席 及 程序 委员会 共同 主席
+__label__publication 首届 数据 驱动 复杂 系统优化 与 应用 会议 主席 国际 会议 BICTA 程序 委员会 共同 主席
+__label__publication 国家 自然科学 优秀青年 基金 仿生 智能 系统 的 理论 算法 及 应用 项目编号 经费 额度 万 执行 年限 项目 主持人
+__label__publication 杰出青年 基金 随机 膜 计算 模型 研究 经费 额度 万 执行 年限 项目 主持人
+__label__publication 国家自然科学基金 面上 项目 基于 脉冲 神经 膜 系统 的 故障诊断 模型 研究 项目编号 经费 额度 万 执行 年限 项目 主持人
+__label__honor 计算 智能 领域 顶级 期刊 IEEE TEVC 的 唯一 最佳 论文 奖
+__label__edu 安徽大学 计算机科学 与 技术 学院 教授 博士生 导师
+__label__edu 安徽大学 科学技术 处 副处长
+__label__edu 中国 生物 信息 学会 筹 生物医学 数据挖掘 与 计算 专业组 秘书长
+__label__publication 在 Neural Computation Bioinformatics Pattern Recognition IEEE ACM Transactions 系列 会刊 等 国内外 重要 学术刊物 与 国际 会议 上 发表 论文 余篇
+__label__publication 作为 项目 负责人 主持 完成 国家自然科学基金 项 中国 博士后 科学 基金项目 一等 资助 项 参与 课题 项
+__label__publication 主编 教材 部 目前 主持 国家自然科学基金 面上 项目 项
+__label__honor 获 中国科学院 王宽诚 博士后 工作 奖
+__label__honor 获 科学技术 奖 自然科学 类 一等奖 第二 完成 人
+__label__honor 获 教育部 自然科学 奖 一等奖 第二 完成 人
+__label__edu 毕业 英国 York 大学 计算机系 获 博士学位
+__label__edu 至今 任教于 安徽大学
+__label__edu 晋升为 教授
+__label__edu 获得 博士生 导师 资格
+__label__edu 现为 安徽大学 二级 教授
+__label__edu 曾 受聘 英国 电信公司 BT 短期 研究员 美国 弗罗 里 达 技术 学院 客座教授 澳大利亚 新南威尔士 大学 客座 研究员 新加坡 南洋 理工大学 客座教授 英国 Stirling 大学 客座教授 英国 York 大学 博士后 研究员 等
+__label__publication Bin Luo Edwin R Hancock Structural graph matching using the EM algorithm and singular value decomposition IEEE Transactions on Pattern Analysis and Machine Intelligence Vol.23 No.10
+__label__publication Bin Luo Richard C Wilson and Edwin R Hancock A spectral approach to learning structural variations in graphs Pattern Recognition Vol No.6
+__label__publication Jiang B Tang J Ding C and Bin Luo Binary Constraint Preserving Graph Matching C Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+__label__publication Lixiang Xu Xiaoyi Jiang Lu Bai Jin Xiao Bin Luo A hybrid reproducing graph kernel based on information entropy Pattern Recognition Volume Pages Bo Jiang Jin Tang Bin Luo Liang Lin Robust Feature Point Matching With Sparse Model IEEE Transactions on Image Processing
+__label__publication 基于 近邻 随机 图 模型 的 图像 结构化 建模 理论 与 应用 研究 国家自然科学基金 至 万元
+__label__honor 被 评为 模范 教师
+__label__honor 指导 的 硕士论文 吴 友情 数字水印 分存 技术 的 研究 获 优秀 硕士论文 奖
+__label__honor 获 科学技术 三等奖 基于 多 模态 图像 分析 的 设备 运行 故障 预警 技术 及 应用
+__label__honor 指导 的 博士生 江波 论文 基于 图 理论 与 稀疏 约束 模型 的 图像 表示 匹配 与 识别 获得 ACM 中国 合肥 分会 优秀 博士论文 奖
+__label__edu 博士
+__label__edu 安徽大学 计算机科学 与 技术 学院 副教授 博导
+__label__honor 入选 徽省 高校 优秀 拔尖 人才
+__label__honor 安徽大学 感谢 恩师 我 最 喜爱 的 老师 候选人
+__label__honor 安徽大学 首批 优秀人才 支持 计划 安徽大学 互联网 大学生 创新 创业 大赛 优秀 指导 教师
+__label__honor 国家 留学 基金委 公派 博士后 资助 计划 美国 普渡大学
+__label__publication 担任 IEEE Trans on CSVT SCN Information Science MTAP IJPRAI 等 SCI 期刊 软件 学报 等 国内 顶级 期刊 及 IWDW 等 国际 会议 审稿人
+__label__honor 担任 国家 科技 专家库 在 库 专家
+__label__honor 国家自然科学基金 函审 专家
+__label__honor 中国计算机学会 CCF 第十一次 会员 代表大会 会员 代表
+__label__honor 中国计算机学会 YOCSEF 合肥 学术 委员会 副 主席
+__label__honor 中国 图象 图形学 学会 CSIG 高级 会员
+__label__honor CSIG 数字 媒体 取证 与 安全 专业 委员会 委员 女 工委 委员
+__label__honor 计算机 学会 ACF 青年 工作 委员会 委员
+__label__publication 共 发表 接受 学术论文 余篇
+__label__publication 其中 第一 作者 通讯 作者 SCI 论文 余篇
+__label__publication 申报 发明专利 余项 主
+__label__publication 持 完成 了 中国 博士后 基金 自然科学 基金 高校 振兴 计划 等 项目
+__label__publication 主持 国家自然科学基金 面上 项目 项 青年 项目 项 参与 重点项目 项 面上 项目 项
+__label__publication 国家自然科学基金 面上 项目 JPEG 图像 可逆 信息 隐藏 主持
+__label__publication 基于 图像 灰度 熵 分解 的 密文 图像 高 载荷 可逆 信息 隐藏 国家自然科学基金 主持
+__label__publication 国家自然科学基金 面上 项目 量子 密码 若干 关键问题 研究 参与
+__label__publication 国家自然科学基金 重点项目 新型 信息 隐藏 的 基础理论 与 关键技术 研究 U1636206 参与
+__label__honor 安徽大学 第七届 青年教师 教学 基本功 竞赛 二等奖
+__label__edu 陶亮 博士 教授 二级 博士生 及 硕士生 导师
+__label__edu 学术 和 技术 带头人
+__label__edu 安徽大学 学位 评定 委员会 委员 计算机科学 与 技术 学院 学位 委员会 主席 中国 电子 学会 电路 与 系统 分会 委员会 委员 人工智能 学会 理事
+__label__edu 研究生 毕业 后 留在 安徽大学 电子 工程 与 信息 科学系 工作
+__label__edu 曾 考取 国家 留学 基金委 公派 访问学者 资格
+__label__edu 次年 被 派 往 加拿大 温莎 大学 访问 研修 一年
+__label__edu 入选 国家教育部 优秀青年 教师 资助 计划 并 获 项目 资助
+__label__edu 年于 中国科技大学 获得 信息 与 通信工程 专业 博士学位
+__label__publication 主持 过 多项 国家自然科学基金 项目 自然科学 基金项目 及 安徽省教育厅 自然科学 重点 研究 项目 的 研究
+__label__publication 在 IEEE Transactions on Image Processing IEEE Transactions on Signal Processing Signal Processing Elsevier 期刊 IEICE Transactions on Information and Systems 日本 电子情报 通信 学会 核心 国际 期刊 Journal of Computer Science and Technology Chinese Journal of Electronics 电子学 报 Chinese Optics Letters 中国 科学 信息科学 中 英文版 等 中外 核心 学术期刊 以及 国际 学术会议 上 发表 论文 多篇
+__label__publication 目前 已有 多篇 论文 被 SCI EI ISTP 收录
+__label__publication 研究成果 被 他人 引用 多次
+__label__publication 出版 专著 部
+__label__publication 多窗 实值 离散 Gabor 展开 与 变换 理论 及 快速 算法 国家自然科学基金 面上 项目
+__label__publication 图像 视觉 比较 多 模态 生物 特征 融合 预研 项目
+__label__publication 基于 近红外 成像 的 手部 静脉 和 纹理 特征 识别 算法 及 系统 实现 研究 用于 身份 识别 与 鉴别 预研 项目
+__label__honor 获得 科学技术 三等奖 一项 排名 第一
+__label__honor 获得 科学技术 三等奖 一项 排名 第四
+__label__honor 所 指导 的 硕士生 学位 论文 实值 离散 Gabor 变换 窗 函数 的 设计 被 人民政府 学位 委员会 和 教育厅 评为 第三届 优秀 硕士学位 论文
+__label__edu 安徽大学 计算机科学 与 技术 学院 教授 博导 硕导
+__label__edu 研究 工作 经历 按 时间 倒 排序 安徽大学 计算机科学 与 技术 学院 教授
+__label__edu 安徽大学 计算机科学 与 技术 学院 副教授
+__label__edu 美国加州大学伯克利分校 University of California Berkeley 电子 工程 与 计算机 学院 EECS 访问学者
+__label__publication 主持 过 多项 不同 类型 项目 包括 国家自然科学基金 项目 子课题 重点 研发 计划 子课题 教育部 留学 基金项目 自然科学 基金项目 和 安徽省教育厅 科学基金 重点项目 等
+__label__publication 发表 相关 论文 多篇 获得 多项 发明专利 和 软件 著作权
+__label__publication 国家 重点 研发 计划 知识产权 信息 共享 与 运营 服务 应用 示范 项目 下设 课题 知识产权 大 数据挖掘 技术 智能 推送 技术 及 应用 示范 2017YFB1401903 子课题
+__label__honor 优秀论文 奖
+__label__edu 博士 毕业 浙江大学 CAD CG 国家 重点 实验室
+__label__edu 起 在 安徽大学 计算机科学 与 技术 学院 工作 并于 获得 教授 职称
+__label__edu 期间 至 在 法国 LIMSI CNRS 从事 博士后 研究
+__label__edu 曾任 计算机科学 与 技术 学院 创新 实验室 主任
+__label__edu 现任 媒体 计算 研究所 所长
+__label__honor 无 获奖
+__label__edu 出生
+__label__edu 安徽大学 计算机科学 与 技术 学院 教授 博士 硕士生 导师
+__label__edu 分别 和 在 安徽大学 电子科技 大学 和 中国 科学技术 大学 获得 学士 硕士 和 博士学位
+__label__edu 在 中国科技大学 信号 与 信息处理 博士后 流动站 进行 博士后 研究
+__label__edu 美国加州大学 圣地亚哥 分校 学习
+__label__publication 科技攻关 计划 项目 项 企业 委托 项目 项
+__label__publication Single Image Distance Measurement by a Smart Mobile Device S Chen X Fang J Shen L Wang L Shao IEEE Transactions on Cybernetics
+__label__publication A Sparse Analysis Window for Discrete Gabor Transform J Zhou X Fang L Tao Circuits Systems and Signal Processing
+__label__publication 基于 快速 卷积 神经网络 的 图像 去模糊 任 静静 方贤勇 陈尚文 汪粼波 周健 计算机辅助 设计 与 图形学 学报
+__label__publication Multi view Metric Learning for Multi view Video Summarization L Wang X Fang Y Guo Y Fu International Conference on Cyberworlds CW
+__label__publication 基于 辐照度 的 运动 模糊 图像 去模糊 方贤勇 阚 未然 周健 李黎 郭延文 中国 图象 图形学 报
+__label__publication 基于 BP 神经网络 的 图像 局部 模糊 测量 黄善春 方贤勇 周健 沈峰 中国 图象 图形学 报
+__label__publication 面向 运动 过程 建模 的 运动 模糊 图像 摄像机 响应函数 估计 方法 方贤勇 阚 未然 陈尚文 郭延文 周健 王安 张 兴义 计算机辅助 设计 与 图形学 学报
+__label__publication A Consistent Pixel Wise Blur Measurement for Partially Blurred Images X Fang F Shen Y Guo C Jacquemin J Zhou S Huang IEEE International Conference on Image Processing ICIP
+__label__publication Fast Window Fusion Using Fuzzy Equivalence Relation X Fang H Zhang J Zhou Pattern Recognition Letters Image Mosaic with Relaxed Motion X Fang J Zhu B Luo Signal Image and Video Processing
+__label__publication 先后 主持 国家 和 省部级 科研项目 项
+__label__publication 在 国内外 学术刊物 和 会议 上 发表 一系列 有 理论意义 和 实际 应用 价值 的 研究 论文
+__label__publication 申请 发明专利 项 授权 项
+__label__publication IPPG 无 接触 生命 体征 监测 实验 系统 等 并 建立 了 丰富 的 实验 数据库
+__label__publication 国家自然科学基金 安徽省教育厅 重点项目 企业 委托 横向 开发 项目
+__label__publication 安徽大学 教育部 重点 实验室 项目 等
+__label__honor 科技进步 三等奖 次 其他 奖励 次
+__label__edu 安徽师范大学 数学 与 计算机 学院 获得 学士学位
+__label__edu 合肥工业大学 计算机 学院 获得 硕士学位
+__label__edu 合肥工业大学 管理科学 与 工程 获得 博士学位
+__label__publication 在 IEEE TSC TSMC ASC KBS IJWGS IJAIT ICSOC ICWS 计算机 学报 软件 学报 电子学 报 计算机 研究 与 发展 计算机 集成 制造 系统 等 期刊 和 会议 发表 学术论文 余篇
+__label__publication 主持 国家自然科学基金 面上 项目 国家 科技 支撑 计划 子课题 教育 人文 社科 青年 基金 和 规划 基金 自然科学 基金 教育厅 自然科学 基金 重点项目 等 余项 课题
+__label__publication 担任 TSC TSMC TNSM TETC IJWS IJWSR China Communications 计算机 学报 通信 学报 等 学术期刊 审稿人
+__label__publication 以及 ICSOC FiCloud ICCC NCSC CBPM 等 国内外 会议 程序 委员会 宣传 主席 和 委员 等
+__label__publication 申请 国家 发明专利 余项 软件 著作权 项
+__label__honor NCSC 最佳 论文 奖
+__label__honor 电子信息 科技奖 技术 发明奖 二等奖 排名
+__label__honor 教学 成果 二等奖 排名
+__label__honor 一次 获 高校 科技进步 三等奖 独 得
+__label__honor 三次 获 教学 优秀奖
+__label__honor 入选 高等学校 十五 优秀人才 计划 的 中青年 学科 带头人
+__label__edu 毕业 合肥 解放军 电子 工程学院 工业 电气 自动化 专业
+__label__edu 毕业 昆明 理工大学 控制 理论 与 控制工程 专业 获工学 硕士学位
+__label__edu 毕业 中国科技大学 模式识别 与 智能 系统 专业 获工学 博士学位
+__label__edu 赴 香港城市大学 计算机系 从事 进化 计算 的 高级 研究 助理 研究
+__label__edu 赴美国 Howard University 从事 蛋白质 结构 预测 的 博士后 研究
+__label__edu 赴 新加坡 Nanyang Technological University 从事 计算 生物学 的 Research Fellow 研究
+__label__edu 在 中国科学院 合肥 智能 机械 研究所 任 副研究员 中国科技大学 硕士生 导师 博士生 副 导师
+__label__edu 应邀 赴 沙特 阿卜杜拉 国王 科技 大学 从事 计算 生物学 的 研究
+__label__edu 悉尼 科技 大学 访问 教授
+__label__edu 迄今 安徽大学 教授
+__label__honor 获取 中科院 奖
+__label__edu 至今 安徽大学 计算机科学 与 技术 学院
+__label__edu 教授 安徽大学 计算机科学 与 技术 学院
+__label__edu 副 院长 计算机 学会
+__label__edu 副理事长 计算机 学会 青年 工作 委员会
+__label__edu 主任 中国计算机学会 CCF 大 数据 专家 委员会
+__label__edu 委员 CCF 计算机 视觉 专委会
+__label__edu 委员 CCF 合肥 分部
+__label__edu 副 秘书长 CCF YOCCF 合肥
+__label__edu 主席 中国 图像 图形 学会 青年 工作 委员会 委员
+__label__edu 中国 视觉 与 学习 研讨会 VALSE 大会 主席
+__label__publication 曾经 在 IEEE ACM TCBB Proteins FEBS Letters BMC Bioinfo Amino Acids 等 刊物 上 发表 了 多篇 学术论文
+__label__publication 其中 余篇 被 SCI EI 检索
+__label__publication JCR 二区 期刊 多篇
+__label__publication 单篇 引用 次数 最高 达到 多次 Google   Scholar   Citation
+__label__publication 基于 氨基酸 序列 协同 进化 编码 的 蛋白质 热点 残基 预测 国家自然科学基金 青年 基金
+__label__publication 蛋白质 配体 相互作用 的 深度 学习 自动编码 和 随机 映射 研究 国家自然科学基金 面上 基金
+__label__publication 多态 集成 器 及其 基于 蛋白质 结构 的 药物 靶点 设计 方法 研究 安徽大学 高层次 人才 引进 科研 启动资金
+__label__honor 科技进步 三等奖 两项
+__label__honor 自然科学 三等奖 一项
+__label__honor 电力公司 科技进步 一等奖 一项
+__label__edu 博士 二级 教授
+__label__edu 安徽大学 计算机科学 与 技术 学科 博士生 导师
+__label__edu 国务院 政府 特殊津贴 获得者
+__label__edu 毕业 安徽大学 计算技术 专业 毕业 后 留校
+__label__edu 晋升 讲师
+__label__edu 晋升 副教授
+__label__edu 起 享受 国务院 政府 特殊津贴
+__label__edu 至 在 北京理工大学 计算机系 计算机 应用 技术 专业 攻读 博士学位
+__label__edu 聘为 教授
+__label__edu 开始 指导 硕士 研究生
+__label__edu 开始 指导 博士 研究生
+__label__edu 起 曾 担任 安徽大学 计算机 系主任 计算机 学院 副 院长 软件 学院 院长 现任 安徽大学 智能 嵌入式 技术 研究 中心 主任 校 学术 委员会 委员 国家 科技 支撑 计划 课题 负责人
+__label__publication 发表 学术论文 余篇
+__label__publication 包括 国际 权威 期刊 IEEE T PAMI IEEE T IP IEEE T CSVT IEEE T Cybernetics PR 等 和 国际 顶级 会议 CVPR ECCV NIPS IJCAI AAAI ACM MM 等
+__label__publication CCF A 类 论文 篇 主持 各级 科研项目 近 项
+__label__publication 国家自然科学基金 面上 项目 视频 时空 结构 深度 模型 研究 及 应用
+__label__publication 国家自然科学基金 面上 项目 基于 多 模态 视觉 模型 的 行为 事件 分析 研究 与 应用
+__label__honor 作为 第一 完成 人 成果 主要 获奖 面向 计算机 超大 屏 的 触控 互动 操作 实现 技术 与 应用 科技 进步奖 二等奖
+__label__honor 社区 科普 智能 交互 平台 及 系列产品 科技 进步奖 三等奖
+__label__honor 专用 集成电路 VHDL 语言 高级 综合 及 混合 级 模拟系统 国家 国防 科学技术 奖 一等奖
+__label__honor 超高速 条码 激光 扫描 阅读 预处理 专用 芯片 国家 国防 科学技术 奖 三等奖
+__label__honor 光笔 式 条码 阅读器 科技 进步奖 二等奖
+__label__honor ADTLG 多用户 通用 图书 流通 计算机 管理系统 科技 进步奖 三等奖
+__label__edu 安徽大学 教授
+__label__edu 多年 从事 智能 软件 的 研究 和 开发 工作
+__label__edu 破格晋升 副教授
+__label__edu 破格晋升 教授
+__label__honor 获得 国家 信息技术 应用 二等奖
+__label__honor 获得 科技进步 二等奖
+__label__publication 作为 负责人 主持 承担 了 国家 科技 支撑 计划 国家 科技部 中小企业 技术创新 基金 科技攻关 等 国家 部委 省级 等 近 项 科研项目
+__label__publication 曾 研制 了 我国 第一台 条码 阅读器
+__label__publication 作为 主持人 研制 的 掌上 型 自动 扫描 翻译 电子词典 在 深圳 高交会 上 获得 技术 转让费 万元
+__label__publication 作为 第一 完成 人 成果 获 部级 科技进步 一等奖 项 省级 科技进步 二等奖 项 部级 科技进步 三等奖 项 省级 科技进步 三等奖 项
+__label__publication 在 计算机 学报 计算机 研究 与 发展 等 中 英文 期刊 上 发表 学术论文 余篇
+__label__publication 论文 在 数字 系统 自动 综合 图 覆盖 优化 方法 海量 字符串 智能 模式匹配 等 方面 有 若干 创新 具有 普适性 取得 了 较 好 的 应用 效果
+__label__publication 申请 项 国家 发明专利 项 获得 授权
+__label__publication 申请 项 国家 实用新型 专利 项 获得 授权
+__label__publication 基于 手势 侧面 图像 的 多点 触摸 识别方法 研究 教育部 博士点 基金
+__label__publication 徽 文化 传播 智能 交互技术 集成 与 应用 示范 国家 科技 支撑 计划 项目
+__label__publication 主持 完成 国家 项目
+__label__publication 主持 完成 教育部 骨干教师 科研项目
+__label__publication 主持 完成 国家自然科学基金 项目
+__label__publication 主持 完成 的 科技 攻关项目
+__label__publication 发表 有关 研究 论文 多篇
+__label__publication 公益林 管理信息系统 省级 软件平台 节能 监管 信息 平台
+__label__edu 博士 毕业 中国 科学技术 大学 数学系
+__label__edu 中国科技大学 动力工程 及 工程 热 物理 博士后 流动站 出站
+__label__edu 起到 安徽大学 计算机 学院 任教
+__label__edu 担任 硕士生 导师
+__label__edu 受聘 教授
+__label__edu 担任 博士生 导师
+__label__publication 先后 参加 了 项 国家自然科学基金 项目 的 研究 工作
+__label__publication 已 主持 完成 两项 省 自然科学 基金项目 两项 省 教育厅 项目
+__label__publication 近年来 在 国际 期刊 Computers Fluids Inter J for Numer Methods in Fluids Mathematics and Computers in Simulation 和 Applied Mathematics and Mechanics 以及 国内 一些 重要 学术期刊 应用 数学 学报 应用力学 学报 等 上面 发表 论文 多篇
+__label__publication 其中 SCI 收录 篇 EI 收录 篇 主持 一项 省 教育厅 自然科学 研究 重点项目 一门 精品课程 建设
+__label__honor 国家 杰出青年 科学基金 获得者
+__label__edu 天津大学 智能 与 计算 学部 主任
+__label__edu 中国 教育 科研 网格 专家 组成员
+__label__publication Xiulong Liu Jiannong Cao Yanni Yang Wenyu Qu Xibin Zhao Keqiu Li Didi Yao Fast RFID Sensory Data Collection Trade off Between Computation and Communication Costs IEEE ACM TON
+__label__honor 国家 万人 计划 科技 创新 领军 人才
+__label__edu 天津市 先进 网络 技术 与 应用 重点 实验室 主任
+__label__edu 地址 中国 天津市 津南区 雅观 路 号 楼 B524
+__label__edu keqiu tju edu cn
+__label__edu 日本 北陆 先端 科学技术 大 学院 大学 信息 科学研究 科 博士
+__label__edu 大连理工大学 应用 数学系 硕士
+__label__edu 大连理工大学 应用 数学系 学士
+__label__edu 天津大学 计算机科学 与 技术 学院 教授
+__label__edu 大连理工大学 计算机科学 与 技术 学院 教授
+__label__edu 日本东京大学 先进 科学技术 研究 中心 博士后 研究员
+__label__edu 大连理工大学 计算机科学 与 技术 学院 讲师
+__label__edu 大连 电子 研究所 计算机 应用 技术 部门 工程师
+__label__edu 云 计算 与 数据中心 物 联网 与 智能网 联车 区块 链
+__label__honor 科技部 中青年 科技 创新 领军 人才
+__label__honor 国家 杰出青年 科学基金 获得者
+__label__honor 教育部 优秀 科技成果 自然科学 奖 二等奖
+__label__honor 辽宁省 自然 科学技术 发明 一等奖
+__label__honor 中国教育部 新世纪 优秀人才
+__label__honor CCF 常务理事 ACM 中国 常务理事
+__label__honor CCF 网络 与 数据通信 专业 委员会 副 主任
+__label__honor 大会 主席 IEEE ICPADS
+__label__honor 大会 主席 IEEE SmartIoT
+__label__honor 大会 主席 WASA
+__label__honor 大会 主席 CWSN
+__label__honor 程序 委员会 主席 IEEE ISPA
+__label__honor 大会 主席 IEEE BDCloud
+__label__honor 大会 主席 IEEE MSN
+__label__honor 技术 委员会 委员 IEEE INFOCOM
+__label__honor 技术 委员会 委员 IEEE ACM IWQoS
+__label__honor 技术 委员会 委员 IEEE ICC
+__label__publication 编委 IEEE Transactions on Computer TC
+__label__publication 编委 IEEE Transactions on Parallel and Distributed Systems TPDS
+__label__publication 编委 Chinese Journal of Computers 至今
+__label__edu 编委 Communications of The CCF 至今
+__label__publication 软件 定义 的 天地 一体化 信息网络 理论 与 关键技术 国家自然科学基金 重点项目 课题 负责人 万
+__label__publication 网络 异常 行为 检测 技术 及 定位 方法 国家自然科学基金 通用 技术 基础 研究 联合 基金 重点项目 主持 万
+__label__publication 软件 定义 云 计算 测量 和 评估 软件 定义 云 计算 基本 理论 与 方法 国家 重大 研发 计划 课题 负责人 万元
+__label__publication 软件 定义 网络 的 基础理论 及 关键技术 国家 自然科学 重点项目 项目 负责人 万元
+__label__publication 数据中心 网络 国家自然科学基金 杰出青年 科学 基金项目 项目 负责人 万元
+__label__publication 大连理工大学 主 节点 及 力学 重点学科 网格 中国 教育 科研 网格 二期 建设项目 项目 负责人 万元
+__label__publication 缓存 技术 在 无线 传感器 网络 中 的 研究 与 应用 国家自然科学基金 面上 项目 项目 负责人 万元
+__label__publication 下一代 互联网 业务 商业 测试 与 设备 产业化 基于 ipv6 的 多媒体 发行 文本 研发 国家 发展 和 改革 委员会 项目 负责人 万元
+__label__publication 网络 环境 中 可信计算 的 关键技术 研究 项目 负责人 万元
+__label__publication Wenxin Li Duowen Liu Kai Chen Keqiu Li Heng Qi Hone Mitigating Stragglers in Distributed Stream Processing With Tuple Scheduling IEEE TPDS
+__label__publication Xin Xie Xiulong Liu Xibin Zhao Weilian Xue Bin Xiao Heng Qi Keqiu Li Jie Wu Implementation of Differential Tag Sampling for COTS RFID Systems IEEE TMC
+__label__publication Xin Xie Xiulong Liu Heng Qi Bin Xiao Keqiu Li Jie Wu Geographical Correlation Based Data Collection for Sensor Augmented RFID Systems IEEE TMC
+__label__publication Wenxin Li Xu Yuan Keqiu Li Heng Qi Xiaobo Zhou Renhai Xu Endpoint Flexible Coflow Scheduling Across Geo Distributed Datacenters IEEE TPDS
+__label__publication Zijuan Liu Xiulong Liu Keqiu Li Deeper Exercise Monitoring for Smart Gym using Fused RFID and CV Data IEEE INFOCOM
+__label__publication Laiping Zhao Yanan Yang Kaixuan Zhang Xiaobo Zhou Tie Qiu Keqiu Li Yungang Bao Rhythm component distinguishable workload deployment in datacenters ACM EuroSys
+__label__publication Hongyun Gao Laiping Zhao Huanbin Wang Zhao Tian Lihai Nie Keqiu Li XShot Light weight Link Failure Localization using Crossed Probing Cycles in SDN ICPP
+__label__publication Xiaodong Dong Wenxin Li Xiaobo Zhou Keqiu Li Heng Qi TINA A Fair Inter datacenter Transmission Mechanism with Deadline Guarantee IEEE INFOCOM
+__label__publication Tie Qiu Zilong Lu Keqiu Li Guoliang Xue Dapeng Oliver Wu An Adaptive Robustness Evolution Algorithm with Self Competition for Scale Free Internet of Things IEEE INFOCOM
+__label__publication Xiulong Liu Xin Xie Shangguang Wang Jia Liu Didi Yao Jiannong Cao Keqiu Li Efficient Range Queries for Large Scale Sensor Augmented RFID Systems IEEE ACM TON
+__label__publication Xiulong Liu Xin Xie Xibin Zhao Kun Wang Keqiu Li Alex X Liu Song Guo Jie Wu Fast Identification of Blocked RFID Tags IEEE TMC
+__label__publication Wenxin Li Xiaobo Zhou Keqiu Li Heng Qi Deke Guo TrafficShaper Shaping Inter Datacenter Traffic to Reduce the Transmission Cost IEEE ACM TON
+__label__publication Wenxin Li Deke Guo Alex X Liu Keqiu Li Heng Qi Song Guo Ali Munir Xiaoyi Tao CoMan Managing Bandwidth Across Computing Frameworks in Multiplexed Datacenters IEEE TPDS
+__label__publication Wenxin Li Deke Guo Keqiu Li Heng Qi Jianhui Zhang iDaaS Inter Datacenter Network as a Service IEEE TPDS
+__label__publication Binlei Cai Rongqi Zhang Laiping Zhao Keqiu Li Less Provisioning A Fine grained Resource Scaling Engine for Long running Services with Tail Latency Guarantees ICPP
+__label__publication Xiulong Liu Jiannong Cao Keqiu Li Jia Liu Xin Xie Range Queries for Sensor augmented RFID Systems IEEE INFOCOM
+__label__publication Wenxin Li Xu Yuan Keqiu Li Heng Qi Xiaobo Zhou Leveraging Endpoint Flexibility when Scheduling Coflows across Geo distributed Datacenters IEEE INFOCOM
+__label__publication Junxiao Wang Yuchen Huang Heng Qi Keqiu Li Steve Uhlig CLICK UP Towards Software Upgrades of Click driven Stateful Network Elements ACM SIGCOMM Posters and Demos
+__label__publication Xiulong Liu Keqiu Li Song Guo Alex X Liu Peng Li Kun Wang Jie Wu Top k Queries for Categorized RFID Systems IEEE ACM TON
+__label__publication Xiulong Liu Xin Xie Keqiu Li Bin Xiao Jie Wu Heng Qi Dawei Lu Fast Tracking the Population of Key Tags in Large Scale Anonymous RFID Systems IEEE ACM TON
+__label__publication Xiulong Liu Keqiu Li Alex X Liu Song Guo Muhammad Shahzad Ann L Wang Jie Wu Multi Category RFID Estimation IEEE ACM TON
+__label__publication Xiulong Liu Bin Xiao Keqiu Li Alex X Liu Jie Wu Xin Xie Heng Qi RFID Estimation With Blocker Tags IEEE ACM TON
+__label__publication Xin Xie Xiulong Liu Keqiu Li Bin Xiao Heng Qi Minimal Perfect Hashing Based Information Collection Protocol for RFID Systems IEEE TMC
+__label__publication Wenxin Li Renhai Xu Heng Qi Keqiu Li Xiaobo Zhou Optimizing the cost performance tradeoff for geo distributed data analytics with uncertain demand IWQoS
+__label__publication Wenxin Li Xiaobo Zhou Keqiu Li Heng Qi Deke Guo More Peak Less Differentiation Towards A Pricing aware Online Control Framework for Inter Datacenter Transfers IEEE ICDCS
+__label__edu Last Updated   Mar
+__label__honor 国家 杰出青年 科学基金 获得者
+__label__edu 天津大学 智能 与 计算 学部 主任
+__label__edu 中国 教育 科研 网格 专家 组成员
+__label__edu 天津大学 智能 与 计算 学部 教授 博导
+__label__edu 服务 计算 群体 智能 计算 实验
+__label__edu 华北电力大学 北京 自动化系 工学 学士
+__label__edu 中科院 自动化 研究所 硕博 连读 工学 博士
+__label__edu 清华大学 国家 CIMS 工程技术 研究 中心 博士后
+__label__edu 美国 卡耐基 梅隆 大学 计算机系 国家 公派 访问学者
+__label__honor IEEE 会员 CCF 会员 ACM 会员
+__label__honor TII TSC IJPR JIT JNCA SOCA IEEE loT 等 国际 期刊 审稿 专家
+__label__honor ICSOC 的 Workshop Co chair ICSS 的 Publication Chair ICWS 的 PC member
+__label__edu 薛霄         天津大学 智能 与 计算 学部 教授 博导
+__label__honor 工作 以来 先后 获得 省 科技 创新 杰出青年 省杰青 省 高校 科技 创新 人才 省 高校 青年 骨干教师 省 教育厅 学术 带头人 省 优秀 硕士论文 指导 教师 等 荣誉称号
+__label__publication 近年来 共 主持 与 参与 科研项目 多项 其中 主持 国家级 课题 项 省级 重大 课题 项 省级 一般 课题 项
+__label__publication 作为 主要 完成 人 参与 国家 重点 研发 课题 项 国家 自然 基金 重点 课题 项 国家 科技 支撑 计划 重大项目 项 项目 项
+__label__publication 出版 专著 部 以 第一 作者 在 IEEE Trans 系列 Internet of Things Information Sciences JNCA FGCS IJPR 等 知名 国际 期刊 上 发表文章 多篇
+__label__publication 授权 发明专利 项 授权 软件 著作权 项
+__label__publication 获省 自然科学 二等奖 项 排名 第一 省 自然科学 决策 研究成果 二等奖 项 排名 第一 省 自然科学 优秀 学术著作 一等奖 项 独著
+__label__publication 薛霄 著 复杂 系统 的 计算 实验 方法 原理 模型 与 案例 科学出版社 ISBN
+__label__publication Xue X Feng Z Y Chen S Z et al Service Ecosystem A Lens of Smart Society J arXiv preprint arXiv 2008.03418 服务 生态 智能 社会 系列 文章 第一篇
+__label__publication Xiao Xue Chen Z Wang S Feng Z Duan Y Zhou Z Value Entropy A Systematic Evaluation Model of Service Ecosystem Evolution IEEE Transactions on Services Computing DOI 10.1109 TSC.2020 中科院 大类 区 软件工程 小类 区 SCI IF 5.823 服务 计算 Top 期刊
+__label__publication Jine tang Zhangbing Zhou Xiao Xue Gongwen Wang Using Collaborative Edge Cloud Cache for Search in Internet of Things IEEE Internet of Things Journal 中科院 大类 区 SCI IF 9.515 Top 期刊
+__label__publication Xiao Xue Shufang Wang LejunZhang Zhiyong Feng Yaodan Guo Social Learning Evolution SLE Computational Experiment based Modeling Framework of Social Manufacturing IEEE Transactions on Industrial Informatics 中科院 大类 区 SCI IF 5.430 Top 期刊
+__label__publication Xiao Xue Jiajia Gao Shuang Wu Shufang Wang Zhiyong Feng Value Based Analysis Framework of Crossover Service A Case Study of New Retail in China IEEE Transactions on Services Computing DOI 10.1109 TSC.2019 中科院 大类 区 软件工程 小类 区 SCI IF 5.823 服务 计算 Top 期刊
+__label__publication Xiao Xue Yaodan Guo Shufang Wang Shizhan Chen Analysis and Controlling of Manufacturing Service Ecosystem A research Framework based on the Parallel System Theory IEEE Transactions on Services Computing DOI
+__label__edu TSC.201
+__label__edu 南京大学 计算机科学 与 技术 系 获学士 硕士 和 博士学位
+__label__edu 起 留校 任教 破格晋升 副教授 获
+__label__honor 国家 杰出青年 科学基金 随后 被 聘任 教授 获 博士生 导师 资格 入选 教育部 长江 学者 特聘 教授
+__label__edu 校 学术 委员会 委员 计算机科学 与 技术 系 主任 人工智能 学院
+__label__edu 院长 计算机软件 新 技术 国家 重点 实验室 常务副 主任 机器 学习 与 数据挖掘 研究所
+__label__edu LAMDA 所长
+__label__honor 美国 计算机 学会 ACM 美国 科学 促进会 AAAS 国际 人工智能 学会 AAAI 国际 电气 电子 工程师 学会 IEEE 国际 模式识别 学会 IAPR 国际 工程技术 学会 IET IEE
+__label__honor 中国计算机学会 CCF 中国 人工智能 学会 CAAI
+__label__honor 等 学会 的 会士 Fellow 欧洲 科学院
+__label__honor 教育部 高等学校 计算机 类 专业 教学 指导 委员会 副 主任 证监会 科技 监管 专家 咨询 委员会 委员 南京市 政府 人工智能 产业 顾问 江苏省政协 十 十一 十二届 委员 江苏省 青联 十一届 副 主席 等
+__label__honor 主要 从事 人工智能 机器 学习 数据挖掘 等 领域 的 研究 工作
+__label__honor 主持 多项 科研课题 出版 机器 学习 机器 学习 理论 导引 Ensemble
+__label__publication Methods Foundations and Algorithms Evolutionary
+__label__publication Learning Advances in Theories and Algorithms 在 本 领域 一流 国际 期刊 和 顶级 国际 会议 发表 论文 两百余篇 被 引用 五万余 次
+__label__honor 现任 AI Magazine 顾问 Frontiers of Computer Science 计算机科学 与 探索 主编 中国 科学 信息科学 等刊 副主编 Artificial Intelligence Machine Learning IEEE TPAMI ACM TKDD 等刊 的 Associate Editor 编委 曾任 科学 通报 副主编 IEEE TKDE
+__label__honor IEEE TNNLS
+__label__honor IEEE TCDS
+__label__honor ACM TIST
+__label__honor Networks   等刊 的 Associate Editor
+__label__honor 亚洲 机器 学习 会议 ACML 发起人 指导 委员会 主席 及 终身 委员 亚太 人工智能 会议 PRICAI 指导 委员会 副 主席 PAKDD 指导 委员会 终身 委员 ICDM 指导 委员会 委员 国际 人工智能 联合会 IJCAI 理事会 成员 国际 人工智能 联合 会议 IJCAI
+__label__honor 顾问 委员会 委员 数十次 担任 国际 学术会议 主席 如 国际 人工智能 联合 大会 IJCAI 程序 委员会 主席 国际 人工智能 大会 AAAI 程序 委员会 主席 IEEE 国际 数据挖掘 大会 ICDM 大会 主席 等 经常 担任 NeurIPS ICML 等 重要 国际 学术会议 的 高级 领域 主席
+__label__edu 担任 中国计算机学会 常务理事 中国 人工智能 学会
+__label__edu 副理事长 江苏省 计算机 学会
+__label__edu 理事长 江苏省 人工智能 学会
+__label__honor 理事长 IEEE 南京 分部 副 主席
+__label__edu 人工智能 与 模式识别 专业 委员会 主任 中国 人工智能 学会 机器 学习 专业 委员会 主任 IEEE 计算 智能 学会 数据挖掘 技术 委员会 主席 IEEE 计算机 学会 南京 分会 创始 主席 南京大学 首届 青年 学者 联谊会 会长
+__label__honor 已 培养 毕业 博士生 名 硕士生 余名 学生 获 全国 优博 次 CCF 优博 次 CAAI 优博 次 江苏省 优博 硕 次 微软 学者 次
+__label__honor 主讲 研究生 课程 被 评为 江苏省 优秀 研究生 课程 本科生 课程 被 评为 南京大学 计算机系 本科 毕业生 心目 中 的 好 课程
+__label__honor 获 高校 计算机专业 优秀教师 奖
+__label__edu http cs nju edu cn zhouzh
+__label__edu 曾任 中国计算机学会
+__label__honor 获 国家 自然科学 二等奖
+__label__honor 教育部 自然科学 一等奖
+__label__edu IEEE 计算机 学会 Edward J McCluskey 技术 成就奖
+__label__honor 首届 CCF ACM 人工智能 奖
+__label__edu CCF 王选奖
+__label__edu 亚洲 机器 学习 卓越 贡献奖
+__label__edu 亚太 数据挖掘 卓越 贡献奖
+__label__honor IEEE 数据挖掘 杰出 服务奖
+__label__honor IEEE 计算 智能 学会 杰出青年 成就奖
+__label__honor 中国 青年 科技奖
+__label__honor 霍英东 青年教师 一等奖
+__label__honor 微软 教授 奖
+__label__honor 中创 软件 人才 奖
+__label__honor 全国 优秀 博士学位 论文 奖
+__label__honor 新世纪 百千万 人才 工程 国家级 人选
+__label__honor 江苏省 十大 杰出青年
+__label__honor 中国 IT 十年 杰出青年
+__label__honor 国务院 政府 特殊津贴 等
+__label__honor 次 获 国际 论文 竞赛奖
+

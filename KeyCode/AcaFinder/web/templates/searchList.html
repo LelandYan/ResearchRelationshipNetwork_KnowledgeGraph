@@ -1,0 +1,39 @@
+{% extends 'common.html' %}
+
+{% block body %}
+    <title>Search List</title>
+    <link rel="stylesheet" href="../static/css/maincss.css">
+    <div class="search-list" id="search-list"></div>
+    {% if nothing %}<h2>Sorry, Not Found In Database.</h2>{% endif %}
+    <script src="../static/js/jquery.js"></script>
+    <script type="text/javascript">
+        let author_ls = {{ result_ls|safe }};
+        console.log(author_ls)
+        let author_ls_index = Object.keys(author_ls).sort(function(a, b){return author_ls[b]['hi']-author_ls[a]['hi']});
+        let item_div_str = '';
+        for(let a = 0; a < author_ls_index.length; a++){
+            let k = author_ls_index[a];
+            item_div_str += "<div class='search-item'><img src='../static/images/male.png' width='120' height='140' style='float: left; margin:20px 15px 10px 5px'/><h2>" +
+                '<a href="javascript:void(0);" onclick="single_entity(this)" authorID="' + k + '">' +
+                author_ls[k]['authorName'] + '</a></h2>' +
+                '<h4><span class="digit-search">H-index: ' + author_ls[k]['hi'] + '</span><span class="digit-search">Papers: ' + author_ls[k]['pc'] +
+                '</span><span class="digit-search">Total Citations: ' + author_ls[k]['cn']+ '</span></h4>';
+            for(let i = 0; i < Math.min(author_ls[k]['affiliationName'].length, 2); i++){
+                item_div_str += '<img src="../static/images/affiliation.png" alt="Affiliation" width="15" height="15"/>' +
+                    '<div class="affiliation-search">' + author_ls[k]['affiliationName'][i] + '</div>';
+            }
+            item_div_str += '<div class="concept-ls">';
+            for(let i = 0; i < Math.min(author_ls[k]['conceptName'].length, 5); i++){
+                item_div_str += '<div class="concept-item">' + author_ls[k]['conceptName'][i] + '</div>';
+            }
+
+            item_div_str += '</div></div>'
+        }
+        document.getElementById("search-list").innerHTML = item_div_str;
+        
+        function single_entity(objInfo) {
+            let authorID = $(objInfo).attr("authorID");
+            document.location.href ='entity?user_text=' + authorID;  
+        }
+    </script>
+{% endblock %}

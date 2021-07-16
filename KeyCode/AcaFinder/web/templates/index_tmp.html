@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>AcaFinder</title>
+      <meta charset="utf-8">
+      <meta name="author" content="Reacubeth Tsui" />
+      <meta name="description" content="AcaFinder for academia" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <link href="../static/images/favicon.png" type="image/x-icon" rel="shortcut icon" />
+      <link href="../static/css/screen.css" rel="stylesheet" />
+   </head>
+   <body class="home" id="page">
+      <!-- Header -->
+      <header class="main-header">
+         <div class="container">
+            <div class="header-content">
+               <a href="/">
+                  <div style="display: flex;">
+                    <img src="../static/images/site-identity.png" alt="site identity" width="85" height="58"/>
+                    <h2 style="padding-top: 20px">AcaFinder</h2>
+                  </div>
+               </a>
+{#               <nav class="site-nav">#}
+{#                  <ul class="clean-list site-links">#}
+{#                     <li>#}
+{#                        <a href="#" target="_blank">Doc</a>#}
+{#                     </li>#}
+{#                     <li>#}
+{#                        <a href="#" target="_blank">About</a>#}
+{#                     </li>#}
+{#                  </ul>#}
+{#                  <a href="#" class="btn btn-outlined">Sign up</a>#}
+{#               </nav>#}
+            </div>
+         </div>
+      </header>
+
+      <!-- Main Content -->
+      <div class="content-box">
+         <!-- Hero Section -->
+         <section class="section section-hero">
+            <div class="hero-box">
+               <div class="container">
+                  <div class="hero-text align-center">
+                     <h1>Visualize Your Research</h1>
+                     <p>and surf the academia</p>
+                  </div>
+
+                  <form action="searchList" method = "get" class="destinations-form">
+                     <div class="input-line">
+                        <input type="text" id="search" value="" name = "user_text" class="form-input check-value" required="required" placeholder="author name(Support Chinese and Pinyin such as Zhihua Zhou or 周志华)) or key technology" />
+                        <button type="submit" class="form-submit btn btn-special">Find</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+
+            <!-- Statistics Box -->
+            <div class="container">
+               <div class="statistics-box">
+                  <div class="statistics-item">
+                     <span class="value">185,915,481</span>
+                     <p class="title">Papers</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">89,421,970</span>
+                     <p class="title">Authors</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">25,659</span>
+                     <p class="title">Affiliations</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">720,335</span>
+                     <p class="title">Concepts</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">765,217</span>
+                     <p class="title">Visitors</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- Gexf-->
+         <section class="section section-homeRelation" style="display: flex">
+         	<div id="net1" style="width: 50%;height:600px; text-align: center; float: left"></div>
+            <div id="net2" style="width: 50%;height:600px; text-align: center; float: left"></div>
+         </section>
+
+         <!-- Destinations Section -->
+         <section class="section section-destination">
+            <!-- Title -->
+            <div class="section-title">
+               <div class="container">
+                  <h2 class="title">Explore More</h2>
+               </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-16 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="#">
+                              <img src="../static/images/citeology.png" alt="citeology image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">CITEOLOGY</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="city">3,502 PAPERS AND 11,699 CITATIONS</h4>
+                              <p class="country">@ Azam Khan, Justin Matejka, George Fitzmaurice, and Gordon Kurtenbach</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="#">
+                              <img src="../static/images/behavior-timeline.jpg" alt="behavior-timeline image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">BEHAVIOR</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="city">BEHAVIOR TIMELINE</h4>
+                              <p class="country">@ AcaFinder</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="https://rawgit.com/jexp/neo4j-3d-force-graph/master/color.html" target="_blank">
+                              <img src="../static/images/3d-force-layout.png" alt="3d-force-layout image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">3D-GRAPH</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                              <h4 class="city">3D-GRAPH</h4>
+                              <p class="country">@ AcaFinder</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+
+               </div>
+
+            </div>
+         </section>
+
+         <!-- Parallax Box -->
+         <div class="parallax-box">
+            <div class="container">
+               <div class="text align-center">
+                  <h1>Academic novice?</h1>
+                  <p>You can add your own profile to our database.</p>
+
+                  <a href="#" class="btn btn-special no-icon size-2x">ADD</a>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+      <!-- Footer -->
+      <footer class="main-footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10">
+                  <div class="widget widget_links">
+                     <h5 class="widget-title">Email</h5>
+                     <ul>
+                        <li><a href="mailto:xiangpeiyan1@gmail.com">xiangpeiyan1@gmail.com</a></li>
+                        <li><a href="https://lelandyan.github.io//">@ Copyright 2021 AcaFinder, lelandyan.github.io</a></li>
+
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-md-10">
+                  <div class="widget widget_social">
+                     <h5 class="widget-title">Subscribe to our newsletter</h5>
+                     <form class="subscribe-form">
+                        <div class="input-line">
+                           <input type="text" name="subscribe-email" value="" placeholder="Your email address" />
+                        </div>
+                        <button type="button" name="subscribe-submit" class="btn btn-special no-icon">Subscribe</button>
+                     </form>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </footer>
+
+      <!-- Scripts -->
+      <script src="../static/js/jquery.js"></script>
+      <script src="../static/js/echarts.js"></script>
+      <script src="../static/js/functions.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+      <script type="text/javascript" src="../static/js/readGexf.js"></script>
+
+   </body>
+</html>
