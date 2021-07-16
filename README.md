@@ -107,6 +107,41 @@
 
 ## 目录结构
 
+```python
+├─AcaFinder
+├─Model
+├─toolkit
+│  ├─embedding
+│  ├─fasttextModel
+│  ├─paper2kg
+│  │  ├─output
+│  │  └─toolkit
+│  │      ├─Ollie
+│  │      └─pdf_parser
+│  │          ├─backends
+│  │          └─jar
+│  └─profileSpider
+│      ├─ff_classifier
+│      └─output
+└─web
+    ├─migrations
+    ├─static
+    │  ├─css
+    │  │  └─sass
+    │  │      ├─core
+    │  │      │  └─mixins
+    │  │      └─ui
+    │  │          ├─components
+    │  │          └─sections
+    │  ├─data
+    │  ├─images
+    │  ├─js
+    │  └─templates
+    └─templates
+```
+
+
+
 ## 可复用资源
 
 ### 数据
