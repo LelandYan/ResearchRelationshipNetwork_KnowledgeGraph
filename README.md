@@ -4,7 +4,7 @@
 
 > 本项目完成了构建科研关系网络知识图谱以及相关应用。构建知识图谱所用到数据均来自网络爬虫爬行的数据；并且可提取结构化、半结构化、非结构化数据的实体与实体之间的关系；数据的存储采用的开源图数据库 Neo4j 存储科研网络关系知识；本文同时使用 Django 、 Echart.js 、D3.js和Boostrap 实现一个具有信息检索、大数据分析、专家技术画像可视化和合作专家信息以及推荐功能网站，可以快速的了解相关领域和专家的相关信息 。
 
-**基于知识图谱的科研关系网络分析项目完整代码以及相关数据下载地址**：[:clap:]()
+**基于知识图谱的科研关系网络分析项目完整代码以及相关数据下载地址（文件有点大，下载可能有点慢，哈哈哈哈哈）**：[:clap:]()
 
 ## 总体技术路线：
 
@@ -184,13 +184,13 @@
 
 ## 项目配置
 
-#### 0. 本项目运行所需要机器配置以及各种语言类库
+#### 0. 本项目运行所需要机器配置以及安装各种语言类库
 
-该项目主要是基于python编写，其中应用到了java、cypher、javascrpt、Django和jQuery语言等，需要运行在内存为**16GB**以上的电脑上。本项目是在**win10系统**下进行编写
+该项目主要是基于python编写，其中应用到了java、cypher、javascrpt、Django和jQuery语言等，需要运行在内存为**16GB**以上的电脑上。本项目是在**win10系统使用pycharm教育版**进行编写
 
 * 安装一系列pip依赖，这里提供了anaconda环境下**acafinder_environment.yaml**文件和pip下的**requirements.txt**以供选择
 
-  * 如果选择anaconda的python第三方集成环境，使用项目目录下的**acafinder_environment.yaml**文件，安装命令为：
+  * **推荐**--如果选择anaconda的python第三方集成环境，使用项目目录下的**acafinder_environment.yaml**文件，安装命令为：
 
     * ```python
       conda env create -f environment.yml
@@ -202,12 +202,121 @@
       pip install -r requirements.txt
       ```
 
-* 安装java语言所需要的jdk，并配置环境变量，详细可参考其他jdk配置，这里jdk使用**jdk 8**版本
+* 安装java语言所需要的jdk，并配置环境变量，详细可参考其他Win10下的jdk配置教程，这里jdk使用**jdk 8**版本
 
-* 安装所需要的数据库（关系型数据库MySql以及**图数据库Neo4j桌面版1.4.2**）
+* 安装所需要的数据库（关系型数据库MySql以及**图数据库Neo4j-desktop-1.2.1**）
 
-  * 注意MySql数据库需要配置用户名和密码以及python连接MySql数据库，MySql的数据库版本是5.7.27
-  * 注意**Neo4j桌面版1.4.2**是不需要自己配置jdk的，安装会自动安装
+  * 注意MySql数据库需要配置用户名和密码以及检验是否已经安装python连接MySql的pyhton类库（**在pip或者anaconda步骤已经安装过，这里只是需要检验是否安装成功**），**MySql的数据库版本是5.7.27**
+  * 注意**Neo4j-desktop-1.2.1**是不需要自己配置jdk的，安装会自动安装，注意数据库配置用户名和密码（用户名默认为neo4j）并检验是否已经安装python连接Neo4j的pyhton类库（**在pip或者anaconda步骤已经安装过，这里只是需要检验是否安装成功**）
+
+#### 1. 导入数据
+
+本项目为基于知识图谱的科研关系网络分析，使用Neo4j存储知识图谱相关知识和MySql存储网络爬虫爬行的数据。
+
+* 将知识图谱导入图数据库Neo4j中，有两种方式。一种是通过Neo4j自带的浏览器中执行Cypher语句将整理完毕的RDF三元组csv文件导入图数据库Neo4j，另一种是通过执行命令将Neo4j导出的db文件重新导入Neo4j中
+
+  * **推荐**--将项目完整代码目录下.\OtherCodeAndData\ImportNeo4jData所有csv文件，拷贝到Neo4j新建图数据库目录下的import文件夹中，更加具体操作，可以参考其他将csv文件导入Neo4j教程，然后在Neo4j自带的浏览器中执行下列Cypher语句
+
+    * ```cypher
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///e_author.csv" AS line
+      CREATE (author:AUTHOR{authorID:toInt(line.authorID), authorName:toString(line.name), pc:toInt(line.pc), cn:toInt(line.cn), hi:toInt(line.hi), pi:toFloat(line.pi), upi:toFloat(line.upi)})
+      
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///e_affiliation.csv" AS line
+      CREATE (affiliation:AFFILIATION{affiliationID:toInt(line.affiliationID), affiliationName:toString(line.name)})
+      
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///e_concept.csv" AS line
+      CREATE (concept:CONCEPT{conceptID:toInt(line.conceptID), conceptName:toString(line.name)})
+      
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///e_paper.csv" AS line
+      CREATE (paper:PAPER{paperID:toInt(line.paperID), paperTitle:toString(line.title), paperYear:toInt(line.year), paperAbstract:toString(line.abstract)})
+      
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///e_venue.csv" AS line
+      CREATE (venue:VENUE{venueID:toInt(line.venueID), venueName:toString(line.name)})
+      
+      CREATE INDEX ON: AUTHOR(authorID)
+      
+      CREATE INDEX ON: AFFILIATION(affiliationID)
+      
+      CREATE INDEX ON: CONCEPT(conceptID)
+      
+      CREATE INDEX ON: PAPER(paperID)
+      
+      CREATE INDEX ON: VENUE(venueID)
+          
+          
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///r_author2affiliation.csv" AS line
+      MATCH (FROM:AUTHOR{authorID:toInt(line.START_ID)}), (TO:AFFILIATION{affiliationID:toInt(line.END_ID)})
+      MERGE (FROM)-[AUTHOR2AFFILIATION: AUTHOR2AFFILIATION{type:line.TYPE}]->(TO)
+      
+      USING PERIODIC COMMIT 10000
+      LOAD CSV WITH HEADERS FROM "file:///r_author2concept.csv" AS line
+      MATCH (FROM:AUTHOR{authorID:toInt(line.START_ID)}), (TO:CONCEPT{conceptID:toInt(line.END_ID)})
+      MERGE (FROM)-[AUTHOR2CONCEPT: AUTHOR2CONCEPT{type:line.TYPE}]->(TO)
+      
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///r_author2paper.csv" AS line
+      MATCH (FROM:AUTHOR{authorID:toInt(line.START_ID)}), (TO:PAPER{paperID:toInt(line.END_ID)})
+      MERGE (FROM)-[AUTHOR2PAPER: AUTHOR2PAPER{type:line.TYPE, author_pos:toInt(line.author_position)}]->(TO)
+      
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///r_citation.csv" AS line
+      MATCH (FROM:PAPER{paperID:toInt(line.START_ID)}), (TO:PAPER{paperID:toInt(line.END_ID)})
+      MERGE (FROM)-[CITATION: CITATION{type:line.TYPE}]->(TO)
+      
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///r_coauthor.csv" AS line
+      MATCH (FROM:AUTHOR{authorID:toInt(line.START_ID)}), (TO:AUTHOR{authorID:toInt(line.END_ID)})
+      MERGE (FROM)<-[COAUTHOR: COAUTHOR{type:line.TYPE, n_cooperation:toInt(line.n_cooperation)}]->(TO)
+      
+      USING PERIODIC COMMIT 5000
+      LOAD CSV WITH HEADERS FROM "file:///r_paper2venue.csv" AS line
+      MATCH (FROM:PAPER{paperID:toInt(line.START_ID)}), (TO:VENUE{venueID:toInt(line.END_ID)})
+      MERGE (FROM)-[PAPER2VENUE: PAPER2VENUE{type:line.TYPE}]->(TO)
+      
+      
+      CREATE INDEX ON: AUTHOR(authorName)
+      
+      CREATE INDEX ON: AFFILIATION(affiliationName)
+      
+      CREATE INDEX ON: CONCEPT(conceptName)
+      
+      CREATE INDEX ON: PAPER(paperTitle)
+      
+      CREATE INDEX ON: VENUE(venueName)
+      ```
+
+  * 拷贝出项目完整代码目录下.\Neo4jDbFile下的db文件，打开Neo4j下的可执行命令行，输入下面命令（**注意，这里要观察neo4j-admin命令所在路径，在决定是否添加bin路径**）：
+
+    * ```cmd
+      neo4j-admin load --from=graph.db.dump --database=graph.db --force
+      ```
+
+#### 2. 配置Neo4j、pyhton连接桌面版本以及修改用户密码
+
+* 配置Neo4j使用pyhton连接桌面版本Neo4j，详细教程可以见详细技术文档  [图数据库介绍（Neo4j）](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%BA%93neo4j.md)
+* 修改项目完整代码目录.\Model\neo4j_models.py中第22行中的账户和密码，当然可以在步骤1导入数据过程中将账号和密码和我设置为相同的，这里就不用修改了
+
+#### 3. 启动服务
+
+确保执行完上面步骤，并测试python可以成功连接neo4j、并安装好各种类库以及语言，在完整项目代码目录下执行下列命令
+
+```python
+python manage.py runserver
+```
+
+或者
+
+```python
+python manage.py runserver 0.0.0.0:8000
+```
+
+等待数据载入和图数据库连接完毕后，可以得到项目的完整功能
 
 ## 项目不足
 
