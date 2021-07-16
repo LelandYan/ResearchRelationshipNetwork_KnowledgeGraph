@@ -10,7 +10,7 @@
 
 * 主页面：
 
-  ![Image text](imgs\1.png)
+  ![Image text](imgs/1.png)
 
   ![Image text](imgs\2.png)
 
@@ -84,7 +84,7 @@
 
 
 
-| 实现功能模块以及相关解释文档                                 |                       详细解释跳转链接                       |
+| 相关解释文档                                                 |                       详细解释跳转链接                       |
 | :----------------------------------------------------------- | :----------------------------------------------------------: |
 | 网络爬虫技术分析介绍                                         | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90.md) |
 | BigGraph实体嵌入向量表示模型以及计算实体、实体关系相似度进行推荐功能 | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
