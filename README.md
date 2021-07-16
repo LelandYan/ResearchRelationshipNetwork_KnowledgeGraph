@@ -4,6 +4,8 @@
 
 > 本项目完成了构建科研关系网络知识图谱以及相关应用。构建知识图谱所用到数据均来自网络爬虫爬行的数据；并且可提取结构化、半结构化、非结构化数据的实体与实体之间的关系；数据的存储采用的开源图数据库 Neo4j 存储科研网络关系知识；本文同时使用 Django 、 Echart.js 、D3.js和Boostrap 实现一个具有信息检索、大数据分析、专家技术画像可视化和合作专家信息以及推荐功能网站，可以快速的了解相关领域和专家的相关信息 。
 
+**基于知识图谱的科研关系网络分析项目完整代码以及相关数据下载地址**：[:clap:]()
+
 ## 总体技术路线：
 
 ![Image text](imgs/10.png)
@@ -184,10 +186,28 @@
 
 #### 0. 本项目运行所需要机器配置以及各种语言类库
 
-该项目主要是基于python编写，其中应用到了java、cypher、javascrpt、Django和jQuery语言等，需要运行在内存为16GB以上的电脑上。本项目是在win10系统下进行编写。
+该项目主要是基于python编写，其中应用到了java、cypher、javascrpt、Django和jQuery语言等，需要运行在内存为**16GB**以上的电脑上。本项目是在**win10系统**下进行编写
 
-* 首先安装一系列pip依赖，这里提供了anaconda环境和pip下的requirement.txt以供选择
-  * 
+* 安装一系列pip依赖，这里提供了anaconda环境下**acafinder_environment.yaml**文件和pip下的**requirements.txt**以供选择
+
+  * 如果选择anaconda的python第三方集成环境，使用项目目录下的**acafinder_environment.yaml**文件，安装命令为：
+
+    * ```python
+      conda env create -f environment.yml
+      ```
+
+  * 否则选择pip安装python环境需要的包，使用项目目录下的**requirements.txt**文件，安装命令为：
+
+    * ```python
+      pip install -r requirements.txt
+      ```
+
+* 安装java语言所需要的jdk，并配置环境变量，详细可参考其他jdk配置，这里jdk使用**jdk 8**版本
+
+* 安装所需要的数据库（关系型数据库MySql以及**图数据库Neo4j桌面版1.4.2**）
+
+  * 注意MySql数据库需要配置用户名和密码以及python连接MySql数据库，MySql的数据库版本是5.7.27
+  * 注意**Neo4j桌面版1.4.2**是不需要自己配置jdk的，安装会自动安装
 
 ## 项目不足
 
