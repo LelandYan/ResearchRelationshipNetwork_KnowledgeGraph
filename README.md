@@ -4,15 +4,15 @@
 
 ## 总体技术路线：
 
-![](imgs\10.png)
+![Image text](imgs/10.png)
 
 ## 项目功能模块以及相关效果图
 
 * 主页面：
 
-  ![](imgs\1.png)
+  ![Image text](imgs\1.png)
 
-  ![](imgs\2.png)
+  ![Image text](imgs\2.png)
 
   主页面主要分为两个部分：
 
@@ -22,9 +22,9 @@
 
 * 副页面
 
-  ![](imgs\3.png)
+  ![Image text](imgs\3.png)
 
-  ![](imgs\4.png)
+  ![Image text](imgs\4.png)
 
   副页面主要分为两个部分：
 
@@ -34,19 +34,19 @@
 
 * 搜索后跳转页面：
 
-  ![](imgs\5.png)
+  ![Image text](imgs\5.png)
 
   这里会列出搜索字段相关的作者列表，然后显示各个作者相关的基本信息
 
 * 点击选择某作者后生成的专家技术画像
 
-  ![](imgs\6.png)
+  ![Image text](imgs\6.png)
 
-  ![](imgs\7.png)
+  ![Image text](imgs\7.png)
 
-  ![](imgs\8.png)
+  ![Image text](imgs\8.png)
 
-  ![](imgs\9.png)
+  ![Image text](imgs\9.png)
 
   本页面共分为8个部分：
 
