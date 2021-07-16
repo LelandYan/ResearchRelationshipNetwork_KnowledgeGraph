@@ -21,7 +21,7 @@ cryptography==3.4.6
 cycler==0.10.0
 decorator @ file:///home/ktietz/src/ci/decorator_1611930055503/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
-Django==3.1.7
+Django==3.1.12
 djangorestframework==3.12.2
 docker==4.4.4
 english==2020.7.0
